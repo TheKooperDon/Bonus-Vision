@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/infost490s3/public_html/deploy
+    - /bin/cp -R cpanel $DEPLOYPATH
