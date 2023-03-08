@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-d43b44ca-3d43-4f77-8840-beee34874831" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462.12 168.71">
+  <defs>
+    <style>
+      .uuid-b6e75055-e40f-432f-b976-a0eb9452fec1 {
+        stroke-width: 5px;
+      }
+
+      .uuid-b6e75055-e40f-432f-b976-a0eb9452fec1, .uuid-35bc8e5b-996a-497f-9ad5-a8ee7e282760 {
+        fill: #fff;
+      }
+
+      .uuid-b6e75055-e40f-432f-b976-a0eb9452fec1, .uuid-35bc8e5b-996a-497f-9ad5-a8ee7e282760, .uuid-23934cdf-eb47-429b-a242-0ec49273f63f, .uuid-544049ba-cefe-4578-8f72-5c7e8ee95cb5, .uuid-ce5d74e8-cbf2-4728-a674-fc262af335b9, .uuid-2d804c0a-ce2b-45ac-959c-adab6efea736 {
+        stroke-miterlimit: 10;
+      }
+
+      .uuid-b6e75055-e40f-432f-b976-a0eb9452fec1, .uuid-35bc8e5b-996a-497f-9ad5-a8ee7e282760, .uuid-544049ba-cefe-4578-8f72-5c7e8ee95cb5, .uuid-ce5d74e8-cbf2-4728-a674-fc262af335b9, .uuid-2d804c0a-ce2b-45ac-959c-adab6efea736 {
+        stroke: #231f20;
+      }
+
+      .uuid-23934cdf-eb47-429b-a242-0ec49273f63f {
+        fill: #231f20;
+        stroke: #fff;
+      }
+
+      .uuid-544049ba-cefe-4578-8f72-5c7e8ee95cb5 {
+        stroke-width: 4px;
+      }
+
+      .uuid-544049ba-cefe-4578-8f72-5c7e8ee95cb5, .uuid-ce5d74e8-cbf2-4728-a674-fc262af335b9, .uuid-2d804c0a-ce2b-45ac-959c-adab6efea736 {
+        fill: none;
+      }
+
+      .uuid-2d804c0a-ce2b-45ac-959c-adab6efea736 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <path class="uuid-2d804c0a-ce2b-45ac-959c-adab6efea736" d="m457.29,138.16c0,11.82-101.49,21.4-226.68,21.4-125.19,0-226.68-9.58-226.68-21.4s101.49-21.4,226.68-21.4,226.68,9.58,226.68,21.4Z"/>
+  <circle class="uuid-b6e75055-e40f-432f-b976-a0eb9452fec1" cx="230.73" cy="55.47" r="50"/>
+  <circle class="uuid-23934cdf-eb47-429b-a242-0ec49273f63f" cx="230.73" cy="55.47" r="25"/>
+  <circle class="uuid-35bc8e5b-996a-497f-9ad5-a8ee7e282760" cx="240.22" cy="34.49" r="9.49"/>
+  <ellipse class="uuid-ce5d74e8-cbf2-4728-a674-fc262af335b9" cx="230.61" cy="138.16" rx="24.24" ry="2.29"/>
+  <ellipse class="uuid-544049ba-cefe-4578-8f72-5c7e8ee95cb5" cx="230.61" cy="138.16" rx="47.84" ry="4.52"/>
+</svg>

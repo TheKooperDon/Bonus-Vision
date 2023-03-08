@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-776292f6-4d58-48f2-873f-a99128cf1704" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.92 44.67">
+  <defs>
+    <style>
+      .uuid-9f88b32a-5803-4976-9ac8-9a22e73a0fe1, .uuid-9d5d1639-844e-4024-b62c-ff5894c06df0 {
+        fill: #231f20;
+      }
+
+      .uuid-9d5d1639-844e-4024-b62c-ff5894c06df0 {
+        font-family: FuturaPT-Book, 'Futura PT';
+        font-size: 50px;
+      }
+
+      .uuid-ea1f40a9-7ba7-4cff-a75c-b0008e7c603a {
+        fill: #fff;
+        stroke-width: .25px;
+      }
+
+      .uuid-ea1f40a9-7ba7-4cff-a75c-b0008e7c603a, .uuid-9ff99675-3a3b-42b4-838d-9eb7996d5863, .uuid-c93f8e27-b2db-42ed-bfe9-dcf2a38f70a5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .uuid-9ff99675-3a3b-42b4-838d-9eb7996d5863, .uuid-c93f8e27-b2db-42ed-bfe9-dcf2a38f70a5 {
+        fill: none;
+      }
+
+      .uuid-c93f8e27-b2db-42ed-bfe9-dcf2a38f70a5 {
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <text class="uuid-9d5d1639-844e-4024-b62c-ff5894c06df0" transform="translate(0 37.78)"><tspan x="0" y="0">BONUS VISION</tspan></text>
+  <g>
+    <circle class="uuid-9f88b32a-5803-4976-9ac8-9a22e73a0fe1" cx="272.86" cy="21.28" r="5.77"/>
+    <circle class="uuid-ea1f40a9-7ba7-4cff-a75c-b0008e7c603a" cx="275.7" cy="16.27" r="1.46"/>
+  </g>
+  <g>
+    <circle class="uuid-9ff99675-3a3b-42b4-838d-9eb7996d5863" cx="46.63" cy="21.24" r="4.09"/>
+    <circle class="uuid-c93f8e27-b2db-42ed-bfe9-dcf2a38f70a5" cx="46.63" cy="21.24" r="1.36"/>
+  </g>
+</svg>
