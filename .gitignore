@@ -1,0 +1,5 @@
+
+*.config
+.vs/SeniorCapstoneBonusVision/v15/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
