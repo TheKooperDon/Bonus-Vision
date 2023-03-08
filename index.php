@@ -7,8 +7,8 @@ include('header.php');
 include('mysqli_connect.php');
 
 //If a user name is entered display login mesage
-	if (isset($_SESSION['first_name'])) {
-		echo "You currently logged in as {$_SESSION['first_name']}. Welcome to our website!";
+	if (isset($_SESSION['username'])) {
+		echo "You are currently logged in as {$_SESSION['username']}. Welcome to Bonus Vision!";
 }
 
 
