@@ -5,7 +5,7 @@
 // selects the database, and sets the encoding.
 
 // Set the database access information as constants:
-$secrets_file = $_ENV['HOME'] . '/secrets.settings.php';
+$secrets_file = '/home/infost490s3/secrets.settings.php';
 
 if (file_exists($secrets_file)) {
    require $secrets_file;
