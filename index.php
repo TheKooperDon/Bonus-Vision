@@ -218,3 +218,5 @@ echo "</div>";
 //header
 include('footer.php');
 ?>
+</body>
+</html>
