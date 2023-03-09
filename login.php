@@ -10,14 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	require ('mysqli_connect.php');
 		
 	// Check the login:
-	list ($check, $data) = check_login($dbc, $_POST['email'], $_POST['pass']);
+	list ($check, $data) = check_login($dbc, $_POST['email'], $_POST['password']);
 	
 	if ($check) { // OK!
 		
 		// Set the session data:
 		session_start();
 		$_SESSION['user_id'] = $data['user_id'];
-		$_SESSION['first_name'] = $data['first_name'];
+		$_SESSION['username'] = $data['username'];
 		
 		// Store the HTTP_USER_AGENT:
 		$_SESSION['agent'] = md5($_SERVER['HTTP_USER_AGENT']);

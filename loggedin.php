@@ -19,7 +19,7 @@ include ('header.php');
 
 // Print a customized message:
 echo "<h1>Logged In!</h1>
-<p>You are now logged in, {$_SESSION['first_name']}!</p>
+<p>You are now logged in, {$_SESSION['username']}!</p>
 <p><a href=\"logout.php\">Logout</a></p>";
 
 include ('footer.php');
