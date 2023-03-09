@@ -6,6 +6,6 @@ if (isset($_SESSION['user_id'])) {
 	
 	
 } else{ 
-	header('Location: http://jsvjr.uwmsois.com/440PHP/Final%20Project/login.php');
+	header('Location: http://infost490s3_bonus.uwmsois.com/SeniorCapstoneBonusVision/login.php');
 }
 ?>
