@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if (empty($_POST['username'])) {
 		$errors[] = 'You forgot to enter a username.';
 	} else {
-		$fn = mysqli_real_escape_string($dbc, trim($_POST['username']));
+		$un = mysqli_real_escape_string($dbc, trim($_POST['username']));
 	}
 
 	// Check for a first name:
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		// Register the user in the database...
 		
 		// Make the query:
-		$q = "INSERT INTO users (username, firstname, lastname, email, password) VALUES ('$fn', '$ln', '$e', SHA2('$p',256), NOW() )";		
+		$q = "INSERT INTO users (username, password, email, firstname, lastname) VALUES ('$un', SHA2('$p',256), '$e', '$fn', '$ln')";		
 		$r = @mysqli_query ($dbc, $q); // Run the query.
 		if ($r) { // If it ran OK.
 		
