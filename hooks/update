@@ -1,0 +1,2 @@
+export DEPLOYPATH=/home/infost490s3/public_html/
+/bin/cp -R /home/infost490s3/repositories/SeniorCapstoneBonusVision/ $DEPLOYPATH
