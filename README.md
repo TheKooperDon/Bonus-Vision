@@ -17,3 +17,9 @@ Netflix SQL Example [Project](https://www.slideshare.net/DongqiWang/database-pro
 [rate.house](https://rate.house/)
 
 demo text
+
+
+Credits:
+[php-tmdb/api](https://github.com/php-tmdb/api) for the PHP client we are using.
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
