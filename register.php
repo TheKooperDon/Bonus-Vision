@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php
 
 $sql = "SELECT genres0name, original_title, overview, production_companies0name, release_date FROM movies";
-$result = $conn->query($sql);
+$result = $dbc->query($sql);
 
 if ($result->num_rows > 0) {
 	//output data of each row
