@@ -106,20 +106,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<p><input type="submit" name="submit" value="Register" /></p>
 </form>
 
-<?php
-
-$dbc = @mysqli_connect (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error() );
-
-$sql = "SELECT genres0name, original_title, overview, production_companies0name, release_date FROM movies";
-$result = $dbc->query($sql);
-
-if ($result->num_rows > 0) {
-	//output data of each row
-	while($row = $result->fetch_assoc()) {
-		echo "<br> Title: ". $row["original_title"]. " - Production Company: ". $row["production_companies0name"]. " - Genre: ". $row["genres0name"] . "<br>";
-	}
-} else {
-	echo "0 results";
-}
-
-include ('footer.php'); ?>
+<?php include ('footer.php'); ?>
