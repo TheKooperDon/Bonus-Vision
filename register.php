@@ -105,4 +105,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="<?php if (isset($_POST['password2'])) echo $_POST['password2']; ?>"  /></p>
 	<p><input type="submit" name="submit" value="Register" /></p>
 </form>
+
+<?php
+
+$sql = "SELECT genres0name, original_title, overview, production_companies0name, release_date FROM movies";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	//output data of each row
+	while($row = $result->fetch_assoc()) {
+		echo "<br> Title: ". $row["original_title"]. " - Production Company: ". $row["production_companies0name"]. " - Genre: ". $row["genres0name"] . "<br>";
+	}
+} else {
+	echo "0 results";
+}
+
+
 <?php include ('footer.php'); ?>
