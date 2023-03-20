@@ -108,6 +108,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <?php
 
+$dbc = @mysqli_connect (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error() );
+
 $sql = "SELECT genres0name, original_title, overview, production_companies0name, release_date FROM movies";
 $result = $dbc->query($sql);
 
