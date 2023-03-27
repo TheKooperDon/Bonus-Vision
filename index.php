@@ -66,21 +66,13 @@
   </head>
   <body>
 <?php
-//Create Session
-session_start();
-//header
-$page_title = "Home Page";
-include('header.php');
-include('mysqli_connect.php');
-
-
-
 /*
+//include('header.php');
+//include('mysqli_connect.php');
 //If a user name is entered display login mesage
 	if (isset($_SESSION['username'])) {
 		echo "You are currently logged in as {$_SESSION['username']}. Welcome to Bonus Vision!";
 }
-
 
 // Same Page Delete Code
 if (isset($_GET['delete_id']) && (isset($_SESSION['user_id']) && ($_SESSION['user_id'] ==6))){
@@ -90,17 +82,11 @@ if (isset($_GET['delete_id']) && (isset($_SESSION['user_id']) && ($_SESSION['use
 	$delete_results = mysqli_query($dbc,$delete_query);
 	if ($delete_results){
 		echo "<h3 style=\"background-color:red;text-align:center;font-size: 100px;\">YO COMMENT GO BYE BYE</h3>";
-	}
-	
-	
-//}else{
-    //$delete_id = "";
-	
-	
+	}	
 }
-
-
-
+else{
+    //$delete_id = "";
+}
 
 //***********************************************
 //PAGINATION SETUP START
@@ -260,33 +246,9 @@ echo '<a href="?s=' . ($start + $display) . '&p=' . $pages . '&sort=' . $sort . 
 
 echo '</p>'; // Close the paragraph.
 
-
-
-
 } // End of links section.
 
 echo "</div>";
-//***********************************************
-//PAGINATION PREVIOUS AND NEXT PAGE BUTTONS/LINKS END
-//***********************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//header
-
 */
 ?>
     <header>
