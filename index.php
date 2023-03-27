@@ -7,62 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/fqq5ksl.css">
 
-  <style>
-    h1 {
-      padding-top: 50px;
-      font-family: "futura-pt-bold", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-    h2{
-      
-      font-family: "futura-pt", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-    h3{
-      font-family: "futura-pt", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    .bg-blue {
-       background-color: blue;
-      padding: 10px; /* Add some padding to create space between the boxes */
-    }
-    .section-box {
-    padding: 1rem;
-    background-color: blue;
-    border-radius: 0.5rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.py-4 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: blue;
-  border-radius: 0.5rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-}
-
-.bg-img {
-  background-image: ('/logoimages/futurepattern.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-  </style>
   </head>
   <body>
 <?php

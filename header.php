@@ -25,6 +25,5 @@ if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
 		<li><a href="password.php">Change Password</a></li>
 		<?php echo $logg; //Create a login/logout link ?>
 		<?php echo $post; // Allow blog post if admin  ?>
-		<?php //if (isset($_SESSION['user_id']) && ($_SESSION['user_id']){ echo '<li><a href = "posttest.php">Secret page!</a></li>'; } ?>
 	</ul></div>
 <div id="content"><!-- Start of the page-specific content. -->
