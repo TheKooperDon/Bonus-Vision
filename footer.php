@@ -25,6 +25,16 @@
     .insta-icon:hover {
         opacity: 0.7;
     }
+    
+    .youtube-icon {
+        color: #c4302b;
+        font-size: 1.7em;
+    }
+
+    .youtube-icon:hover {
+        opacity: 0.7;
+    }
+
   </style>
 
 <footer class="bg-dark text-white py-1 footer-bg">
@@ -38,6 +48,7 @@
             <a href="#"><i class="bi bi-instagram mx-2 insta-icon"></i></a>
             <a href="#"><i class="bi bi-facebook mx-2 facebook-icon"></i></a>
             <a href="#"><i class="bi bi-twitter mx-2 twitter-icon"></i></a>
+            <a href="#"><i class="bi bi-youtube mx-2 youtube-icon"></i></a>
               </div>
               <div class="col">
                 <p><a href="#">Copyright and Licensing</a></p>
