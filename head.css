@@ -112,3 +112,27 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 20px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 20px;
+}
