@@ -1,0 +1,25 @@
+.pagenumbers{
+	display: grid;
+	place-items: center; 
+	text-align: center;
+}
+#navigation {
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+}
+#navigation a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: .5s;
+}
+#navigation a:hover {
+	background: #ddd;
+	color: black;
+}	
