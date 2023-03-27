@@ -66,7 +66,6 @@
   </head>
   <body>
 <?php
-<?php
 //Create Session
 session_start();
 //header
@@ -289,14 +288,6 @@ echo "</div>";
 //header
 
 */
-include('footer.php');
-?>
-</body>
-</html>
-
-
-
-
 ?>
     <header>
 
