@@ -1,3 +1,38 @@
+.facebook-icon {
+        color: #3B5998;
+        font-size: 1.5em;
+    }
+
+    .facebook-icon:hover {
+        opacity: 0.7;
+    }
+
+    .twitter-icon {
+        color: #00acee;
+        font-size: 1.5em;
+    }
+
+    .twitter-icon:hover {
+        opacity: 0.7;
+    }
+
+    .insta-icon {
+        color: #8a3ab9;
+        font-size: 1.5em;
+    }
+
+    .insta-icon:hover {
+        opacity: 0.7;
+    }
+    
+    .youtube-icon {
+        color: #c4302b;
+        font-size: 1.7em;
+    }
+
+    .youtube-icon:hover {
+        opacity: 0.7;
+    }
 .pagenumbers{
 	display: grid;
 	place-items: center; 
