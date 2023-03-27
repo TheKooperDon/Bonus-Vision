@@ -11,9 +11,9 @@
   <body>
 <?php
 /*
-//include('header.php');
-//include('mysqli_connect.php');
-//If a user name is entered display login mesage
+include('header.php');
+include('mysqli_connect.php');
+If a user name is entered display login mesage
 	if (isset($_SESSION['username'])) {
 		echo "You are currently logged in as {$_SESSION['username']}. Welcome to Bonus Vision!";
 }
