@@ -1,12 +1,6 @@
-<?php # Script 9.6 - view_users.php #2
-// This script retrieves all the records from the users table.
-
+<?php // This script retrieves all the records from the users table.
 $page_title = 'View the Current Users';
 include ('header.php');
-
-// Page header:
-echo '<h1>Registered Users</h1>';
-
 require ('mysqli_connect.php'); // Connect to the db.
 		
 // Make the query:
@@ -15,9 +9,13 @@ $r = @mysqli_query ($dbc, $q); // Run the query.
 
 // Count the number of returned rows:
 $num = mysqli_num_rows($r);
+?>
+
+<h1>Registered Users</h1>
+
+
 
 if ($num > 0) { // If it ran OK, display the records.
-
 	// Print how many users there are:
 	echo "<p>There are currently $num registered users.</p>\n";
 
