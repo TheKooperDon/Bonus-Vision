@@ -26,8 +26,8 @@ if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
 <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
 	<div class="container-fluid">
 	<a class="navbar-brand" href="#">
-			<img src="/logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
-			<img src="/logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
+			<img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
+			<img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
 	  <a class="navbar-brand" href="#"></a>
 	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
