@@ -2,8 +2,8 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <img src="/logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
-                <img src="/logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
+                <img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
+                <img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
               </div>
               <div class="col-5">
             <a href="#"><i class="bi bi-instagram mx-2 insta-icon"></i></a>
