@@ -255,7 +255,7 @@ echo "</div>";
         <h2>Bonus Features</h2>
     </div>
     <div class="container">
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1-g-2 row-cols-lg-3 g-4">
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
     <div class="col">
       <div class="card bg-dark text-center">
         <h5 class="card-header text-white">Deleted Scenes</h5>
@@ -273,7 +273,7 @@ echo "</div>";
         <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
       </div>
