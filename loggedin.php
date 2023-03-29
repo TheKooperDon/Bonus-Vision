@@ -1,6 +1,7 @@
 <?php // The user is redirected here from login.php.
 session_start(); // Start the session.
-if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']) )) { // If no session value is present, redirect the user, also validate the HTTP_USER_AGENT!
+if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']) )) {
+	// If no session value is present, redirect the user, also validate the HTTP_USER_AGENT!
 	require ('includes/login_functions.inc.php');
 	redirect_user();
 }
