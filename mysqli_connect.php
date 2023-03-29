@@ -1,20 +1,9 @@
-<?php # Script 9.2 - mysqli_connect.php
+<?php // This file contains the database access information.
+if (file_exists('/home/infost490s3/secrets.settings.php')) { require '/home/infost490s3/secrets.settings.php'; }		// Require secrets
 
-// This file contains the database access information. 
-// This file also establishes a connection to MySQL, 
-// selects the database, and sets the encoding.
-
-// Set the database access information as constants:
-$secrets_file = '/home/infost490s3/secrets.settings.php';
-
-if (file_exists($secrets_file)) {
-   require $secrets_file;
-}
-
-// Make the connection:
+// Make the connection
 $dbc = @mysqli_connect (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error() );
 
-// Set the encoding...
+// Set the encoding
 mysqli_set_charset($dbc, 'utf8');
-
 ?>

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Account Settings</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/fqq5ksl.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
@@ -16,52 +17,20 @@
       font-weight: 700;
       font-style: normal;
     }
+
     h2{
       
       font-family: "futura-pt", sans-serif;
       font-weight: 700;
       font-style: normal;
     }
+
     h3{
       font-family: "futura-pt", sans-serif;
       font-weight: 400;
       font-style: normal;
     }
-/*
-    footer {
-        position: fixed;
-        font-weight:bold;
-        text-align: center;
-    }
-*/
-    .maps-link {
-        text-decoration: none;
-        color: var(--light);
-    }
 
-    .fa {
-        font-size: 25px;
-        width: 25px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-    }
-
-    .fa:hover {
-        opacity: 0.7;
-    }
-
-    .fa-facebook {
-        color: #3B5998;
-    }
-
-    .fa-twitter {
-        color: #00acee;
-    }
-
-    .fa-instagram {
-        color: #8a3ab9;
-    }
 
   </style>
   </head>
@@ -116,8 +85,17 @@
     </header>
     <main>
     
-    <h1>Account</h1>
+<br><br><br>
 
+      <div class="container">
+
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Account Settings</strong></li>
+        </ul>
+      </div>
+
+
+      <br>
     <!-- User Info Code 
     ******************************-->
     
@@ -194,25 +172,15 @@
       <!-- *******************
         End of Favorite Genre Code -->
     <br>
-    <button type="button" class="btn btn-primary btn-lg col">Save Settings</button>
+    <button type="button" class="btn btn-warning btn-lg col-12">Save Settings</button>
+
   
-    
 
     </main>
   
-    <footer class="bg-dark text-white py-3">
-          <div class="container text-center">
-            <p>Click here for our Social medias!</p>
-            <a href="#"><i class="bi bi-instagram mx-3"></i></a>
-            <a href="#"><i class="bi bi-facebook mx-3"></i></a>
-            <a href="#"><i class="bi bi-twitter mx-3"></i></a>
-          </div>
-        
-    </footer>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    <?php include ('footer.php'); ?>
 
 

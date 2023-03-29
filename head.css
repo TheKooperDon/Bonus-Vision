@@ -1,0 +1,138 @@
+.facebook-icon {
+        color: #3B5998;
+        font-size: 1.5em;
+    }
+
+    .facebook-icon:hover {
+        opacity: 0.7;
+    }
+
+    .twitter-icon {
+        color: #00acee;
+        font-size: 1.5em;
+    }
+
+    .twitter-icon:hover {
+        opacity: 0.7;
+    }
+
+    .insta-icon {
+        color: #8a3ab9;
+        font-size: 1.5em;
+    }
+
+    .insta-icon:hover {
+        opacity: 0.7;
+    }
+    
+    .youtube-icon {
+        color: #c4302b;
+        font-size: 1.7em;
+    }
+
+    .youtube-icon:hover {
+        opacity: 0.7;
+    }
+.pagenumbers{
+	display: grid;
+	place-items: center; 
+	text-align: center;
+}
+#navigation {
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+}
+#navigation a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: .5s;
+}
+#navigation a:hover {
+	background: #ddd;
+	color: black;
+}
+    h1 {
+      padding-top: 50px;
+      font-family: "futura-pt-bold", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    h2{
+      
+      font-family: "futura-pt", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    h3{
+      font-family: "futura-pt", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+.bg-blue {
+       background-color: blue;
+      padding: 10px; /* Add some padding to create space between the boxes */
+    }
+.section-box {
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: blue;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.bg-img {
+  background-image: ('/logoimages/futurepattern.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 20px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 20px;
+}
