@@ -17,12 +17,54 @@ if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div id="navigation"><ul>
-		<li><a href="index.php">Home Page</a></li>
-		<li><a href="register.php">Register</a></li>
-		<li><a href="view_users.php">View Users</a></li>
-		<li><a href="password.php">Change Password</a></li>
-		<?php echo $logg; //Create a login/logout link ?>
-		<?php echo $post; // Allow blog post if admin  ?>
-	</ul></div>
-<div id="content"><!-- Start of the page-specific content. -->
+<header>
+
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+	<div class="container-fluid">
+	<a class="navbar-brand" href="#">
+			<img src="/logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
+			<img src="/logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
+	  <a class="navbar-brand" href="#"></a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">About Us</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Movies</a>
+		  </li>
+		  
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  Bonus Features
+			</a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#">Deleted Scenes</a></li>
+			  <li><a class="dropdown-item" href="#">Bloopers</a></li>
+			  <li><a class="dropdown-item" href="#">Director's Commentary</a></li>
+			  <li><a class="dropdown-item" href="#">Behind the Scenes</a></li>
+			  
+			  <li><a class="dropdown-item" href="#">Games</a></li>
+			</ul>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="register.php">Log In</a>
+		  </li>
+		  	<?php echo $logg; //Create a login/logout link ?>
+			<?php echo $post; // Allow blog post if admin  ?>
+		</ul>
+		<form class="d-flex" role="search">
+		  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success" type="submit">Search</button>
+		</form>
+	  </div>
+	</div>
+  </nav>
+</header>
+
