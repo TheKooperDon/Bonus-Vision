@@ -254,43 +254,48 @@ echo "</div>";
         <p class="lead">Accessing Bonus Feature content without physical media is currently not possible in this streaming age that we are in. With Bonus Vision we provide a convenient and easy to navigate platform that holds all the missing content from your favorite movies in one location.</p>
         <h2>Bonus Features</h2>
     </div>
-    <div class="container">
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
-    <div class="col">
-      <div class="card bg-dark text-center">
-        <h5 class="card-header text-white">Deleted Scenes</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card bg-dark text-center">
-        <h5 class="card-header text-white">Bloopers</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+
+
+    
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card bg-dark text-center">
+          <h5 class="card-header text-white">Deleted Scenes</h5>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card bg-dark text-center">
-        <h5 class="card-header text-white">How it was Made</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+      <div class="col">
+        <div class="card bg-dark text-center">
+          <h5 class="card-header text-white">Bloopers</h5>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+      </div>
+      <div class="col">
+        <div class="card bg-dark text-center">
+          <h5 class="card-header text-white">How it was Made</h5>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+
     <div class="container text-left mt-5">
    
     <h2>Movies</h2>
