@@ -1,13 +1,18 @@
 <?php
 session_start();
 if ( isset($_SESSION['user_id']) && ( basename($_SERVER['PHP_SELF']) != 'logout.php' ) ) {
-	$logg = '<li><a href="logout.php">Logout</a></li>';
+	$logg = $_SESSION['username'];
 } else {
-	$logg = '<li><a href="login.php">Login</a></li>';
+	$logg = 'Login';
 }
-if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
-	$post =  '<li><a href = "newblogpost.php">Make a Post</a></li>';
+
+if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
+	$is_logged_in = False;
+} else {
+	$is_logged_in = True;
 }
+
+
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -36,7 +41,7 @@ if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 		  <li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="#">Home</a>
+			<a class="nav-link active" aria-current="page" href="/">Home</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="#">About Us</a>
@@ -54,15 +59,13 @@ if ( isset($_SESSION['user_id']) && ($_SESSION['user_id'] == 6) ) {
 			  <li><a class="dropdown-item" href="#">Bloopers</a></li>
 			  <li><a class="dropdown-item" href="#">Director's Commentary</a></li>
 			  <li><a class="dropdown-item" href="#">Behind the Scenes</a></li>
-			  
 			  <li><a class="dropdown-item" href="#">Games</a></li>
 			</ul>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="register.php">Log In</a>
+			<a class="nav-link" href="login.php"><?php echo $logg; ?></a>
+		  	
 		  </li>
-		  	<?php echo $logg; //Create a login/logout link ?>
-			<?php echo $post; // Allow blog post if admin  ?>
 		</ul>
 		<form class="d-flex" role="search">
 		  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
