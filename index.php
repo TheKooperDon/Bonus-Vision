@@ -259,10 +259,10 @@ echo "</div>";
     <div class="col">
       <div class="card bg-dark text-center">
         <h5 class="card-header text-white">Deleted Scenes</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
       </div>
@@ -270,10 +270,10 @@ echo "</div>";
     <div class="col">
       <div class="card bg-dark text-center">
         <h5 class="card-header text-white">Bloopers</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
       </div>
@@ -281,10 +281,10 @@ echo "</div>";
     <div class="col">
       <div class="card bg-dark text-center">
         <h5 class="card-header text-white">How it was Made</h5>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-md p-3">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
         </div>
       </div>
