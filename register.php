@@ -101,6 +101,7 @@ $result = $mysqli->query($sql);
 $mysqli->close();
 ?>
 
+<br><br><br><br><br><br><br><br>
 <section>
         <h1>Movies</h1>
         <!-- TABLE CONSTRUCTION -->
