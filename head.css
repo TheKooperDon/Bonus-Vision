@@ -1,4 +1,10 @@
-.facebook-icon {
+    body {
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .facebook-icon {
         color: #3B5998;
         font-size: 1.5em;
     }
