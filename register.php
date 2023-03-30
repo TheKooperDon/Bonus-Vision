@@ -90,6 +90,63 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		echo '</p><p>Please try again.</p><p><br /></p>';
 		
 	} // End of if (empty($errors)) IF.
+
+
+
+ //BEGINNING OF TEST CODE *******************************************************************
+
+// SQL query to select data from database
+$sql = " SELECT * FROM movies ORDER BY original_title DESC ";
+$result = $mysqli->query($sql);
+$mysqli->close();
+?>
+
+<section>
+        <h1>Movies</h1>
+        <!-- TABLE CONSTRUCTION -->
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Production Company</th>
+                <th>Release Date</th>
+            </tr>
+            <!-- PHP CODE TO FETCH DATA FROM ROWS -->
+            <?php
+                // LOOP TILL END OF DATA
+                while($rows=$result->fetch_assoc())
+                {
+            ?>
+            <tr>
+                <!-- FETCHING DATA FROM EACH
+                    ROW OF EVERY COLUMN -->
+                <td><?php echo $rows['original_title'];?></td>
+                <td><?php echo $rows['genres0name'];?></td>
+                <td><?php echo $rows['production_companies0name'];?></td>
+                <td><?php echo $rows['release_date'];?></td>
+            </tr>
+            <?php
+                }
+            ?>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+//ENDING OF TEST CODE ***********************************************************************************
 	
 	mysqli_close($dbc); // Close the database connection.
 
