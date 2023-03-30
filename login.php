@@ -66,6 +66,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	';
 } else {
 	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
+	<p><a href="accountsettings.php">Account Settings</a></p><br>
 	<p><a href="login.php?logout">Logout</a></p>
 	';
 }
