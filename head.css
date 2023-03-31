@@ -6,7 +6,7 @@
 /* Footer CSS */
 
     #footer {
-        width: calc(100% - 20px);
+        box-sizing: border-box;
     }
     .facebook-icon {
         color: #3B5998;
