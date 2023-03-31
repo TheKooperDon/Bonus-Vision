@@ -87,13 +87,13 @@
                     <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 2">
                   </div>
                   <div class="col-2">
-                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 3">
+                    <img src="<?php echo __DIR__?>../seniorcapstonebonusvision/moviedvdcovers/shrek2.jpg" alt="DVD 3">
                   </div>
                   <div class="col-2">
-                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 4">
+                    <img src="<?php echo __DIR__?>/seniorcapstonebonusvision/moviedvdcovers/shrek2.jpg" alt="DVD 4">
                   </div>
                   <div class="col-2">
-                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 5">
+                    <img src="<?php echo __DIR__?>/seniorcapstonebonusvision/moviedvdcovers/shrek2.jpg" alt="DVD 5">
                   </div>
                 </div>
               </div>
