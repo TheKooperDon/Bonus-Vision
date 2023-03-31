@@ -81,7 +81,7 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1" width="300">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1" width="300" height="450">
                   </div>
                   <div class="col-2">
                     <img src="moviedvdcovers/shrek2.jpg" alt="DVD 2" width="300">
