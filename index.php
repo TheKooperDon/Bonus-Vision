@@ -81,38 +81,38 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 2">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 2" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 3">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 3" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 4">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 4" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 5">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 5" width="300">
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 6">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 6" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 7">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 7" width="300">
                   </div>
                   <div class="col-2">
                     <img src="moviedvdcovers/shrek2.jpg" alt="DVD 8">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 9">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 9" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 10">
+                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 10" width="300">
                   </div>
                 </div>
               </div>
