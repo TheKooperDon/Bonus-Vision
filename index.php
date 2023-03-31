@@ -81,7 +81,7 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="<?php echo __DIR__?>/webdesign23wildlive/" alt="DVD 1">
+                    <img src="<?php echo __DIR__?>moviedvdposters/shrek2.jpg" alt="DVD 1">
                   </div>
                   <div class="col-2">
                     <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 2">
