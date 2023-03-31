@@ -81,19 +81,19 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 1">
+                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 1">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 2">
+                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 2">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 3">
+                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 3">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 4">
+                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 4">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 5">
+                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 5">
                   </div>
                 </div>
               </div>
