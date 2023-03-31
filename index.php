@@ -129,13 +129,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inline w-30" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inline w-30" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inine w-30" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -154,13 +154,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inline w-30" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inline w-30" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="moviedvdcovers/shrek2.jpg" class="d-block w-30" alt="...">
+      <img src="moviedvdcovers/shrek2.jpg" class="d-inline w-30" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
