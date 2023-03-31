@@ -67,7 +67,7 @@
     <h2>Movies</h2>
     <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
     
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
       <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
@@ -187,7 +187,7 @@
       </div>
     </div>
     <h2>What are you waiting for? Sign up now!</h2>
-    <button type="button">Sign me up!</button>
+    <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
   
     </div>
 
