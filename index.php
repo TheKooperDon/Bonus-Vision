@@ -81,38 +81,38 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="../webdesign23wildlive/" alt="DVD 1">
+                    <img src="<?php echo __DIR__?>/webdesign23wildlive/" alt="DVD 1">
                   </div>
                   <div class="col-2">
-                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 2">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 2">
                   </div>
                   <div class="col-2">
-                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 3">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 3">
                   </div>
                   <div class="col-2">
-                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 4">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 4">
                   </div>
                   <div class="col-2">
-                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 5">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 5">
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 6">
+                    <img src="<?php echo __DIR__?>moviedvdcovers/shrek2.jpg" alt="DVD 6">
                   </div>
                   <div class="col-2">
-                    <img src="../SeniorCapstoneBonusVision/moviedvdcovers/shrek2.jpg" alt="DVD 7">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 7">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 8">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 8">
                   </div>
                   <div class="col-2">
-                    <img src="../moviedvdcovers/shrek2.jpg" alt="DVD 9">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 9">
                   </div>
                   <div class="col-2">
-                    <img src="/moviedvdcovers/shrek2.jpg" alt="DVD 10">
+                    <img src="<?php echo __DIR__?>/moviedvdcovers/shrek2.jpg" alt="DVD 10">
                   </div>
                 </div>
               </div>
