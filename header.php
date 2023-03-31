@@ -41,13 +41,13 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 		  <li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="/">Home</a>
+			<a class="nav-link active" aria-current="page" href="index.php">Home</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="#">About Us</a>
+			<a class="nav-link" href="aboutus.html">About Us</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="#">Movies</a>
+			<a class="nav-link" href="movies.html">Movies</a>
 		  </li>
 		  
 		  <li class="nav-item dropdown">
