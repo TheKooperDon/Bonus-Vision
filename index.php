@@ -175,7 +175,7 @@
 
 
 
-<!-- Carousel  -->
+<!-- Carousel  
 
     <div class="container">
       <div class="row">
@@ -237,6 +237,8 @@
         </div>
       </div>
     </div>
+
+    -->
     <h2>What are you waiting for? Sign up now!</h2>
     <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
   
