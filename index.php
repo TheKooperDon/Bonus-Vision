@@ -134,7 +134,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -146,7 +146,7 @@
           </div>
           <div class="carousel-item">
             <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -159,7 +159,7 @@
           </div>
           <div class="carousel-item">
             <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
