@@ -134,7 +134,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -144,9 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -155,11 +153,8 @@
                 </div>
               </div>
 
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 18rem;">
+           
+              <div class="card">
                 <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -167,8 +162,7 @@
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-            </div>
-          </div>
+            
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
