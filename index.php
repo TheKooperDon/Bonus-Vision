@@ -23,10 +23,10 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">Deleted Scenes</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=UzeIb-TZo_I"></iframe>
+            <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=UDwV34L2JoY"></iframe>
+            <iframe src="https://www.youtube.com/embed/UDwV34L2JoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -34,10 +34,10 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">Bloopers</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=N0nwlxGO024"></iframe>
+              <iframe src="https://www.youtube.com/embed/N0nwlxGO024" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=OjvlEfon2hE"></iframe>
+            <iframe width="300" src="https://www.youtube.com/embed/OjvlEfon2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">How it was Made</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=x_qm280q2e0"></iframe>
+            <iframe src="https://www.youtube.com/embed/x_qm280q2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
             <iframe src="https://www.youtube.com/embed/BdHCp62jC84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
