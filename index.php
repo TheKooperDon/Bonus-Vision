@@ -66,9 +66,9 @@
     </div>
 
 
-    <!--
+   
     <div class="container text-left mt-5">
-              -->
+              
       <h2>Movies</h2>
       <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
 
@@ -129,7 +129,7 @@
           </div>
         </div>
       </div>
-                
+    </div>            
 
       <!-- Carousel & Cards 
       
@@ -244,7 +244,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
--->
+    
+    -->
       <!-- Number 2 carsouel with a card -->
 
 
