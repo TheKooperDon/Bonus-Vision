@@ -48,7 +48,7 @@ include('header.php'); ?>
               <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=x_qm280q2e0"></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=BdHCp62jC84"></iframe>
+            <iframe src="https://www.youtube.com/embed/BdHCp62jC84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/a-new-hope.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">moviedvdcovers/shrek2.jpg 2</h5>
+              <h5 class="card-title">Star Wars a New Hope</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
