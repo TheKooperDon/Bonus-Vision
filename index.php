@@ -69,7 +69,7 @@
       <h2>Movies</h2>
       <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
 
-      <!-- Cards Only -->
+      <!-- Cards Only 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
@@ -127,7 +127,7 @@
         </div>
       </div>
 
-
+      -->
       <!-- Carousel & Cards -->
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
