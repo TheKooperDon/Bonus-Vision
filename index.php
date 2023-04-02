@@ -11,7 +11,7 @@
 
 <body>
   <?php include('header.php'); ?>
-  <script src="demo_script_src.js"></script>
+  <script type="text/javascript" src="index.js"></script>
   <main>
 
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
@@ -25,6 +25,44 @@
     </div>
 
 
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card bg-dark text-center">
+            <h5 class="card-header text-white">Deleted Scenes</h5>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-center">
+            <h5 class="card-header text-white">Bloopers</h5>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-center">
+            <h5 class="card-header text-white">How it was Made</h5>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
