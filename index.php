@@ -1,4 +1,6 @@
-<?php include('header.php'); ?>
+<?php
+$page_title = 'BonusVision';
+include('header.php'); ?>
   
   <!--<script src="index.js"></script>-->
   <main>
