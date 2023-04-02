@@ -62,11 +62,11 @@ include('header.php'); ?>
       <h2>Movies</h2>
       <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
 
-      Cards Only 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
           <div class="card">
-            <img src="movieposters/a-new-hope.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/a-new-hope.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">moviedvdcovers/shrek2.jpg 2</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -75,46 +75,51 @@ include('header.php'); ?>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/blade-runner.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/blade-runner.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/finding-nemo.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/finding-nemo.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/forest-gump.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/forest-gump.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
           </div>
         </div>
@@ -132,7 +137,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 1</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -143,7 +148,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 2</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -154,7 +159,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 3</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -165,7 +170,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 4</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -176,7 +181,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 5</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -187,7 +192,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 6</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -198,7 +203,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 7</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -209,7 +214,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 8</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -220,7 +225,7 @@ include('header.php'); ?>
                 <h5 class="card-title">Card title 9</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
@@ -258,38 +263,38 @@ include('header.php'); ?>
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 1" width="300" height="450">
+                    <img src="Movie Cover Image" alt="DVD 1" width="300" height="450">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 2" width="300">
+                    <img src="Movie Cover Image" alt="DVD 2" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 3" width="300">
+                    <img src="Movie Cover Image" alt="DVD 3" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 4" width="300">
+                    <img src="Movie Cover Image" alt="DVD 4" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 5" width="300">
+                    <img src="Movie Cover Image" alt="DVD 5" width="300">
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 6" width="300">
+                    <img src="Movie Cover Image" alt="DVD 6" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 7" width="300">
+                    <img src="Movie Cover Image" alt="DVD 7" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 8">
+                    <img src="Movie Cover Image" alt="DVD 8">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 9" width="300">
+                    <img src="Movie Cover Image" alt="DVD 9" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 10" width="300">
+                    <img src="Movie Cover Image" alt="DVD 10" width="300">
                   </div>
                 </div>
               </div>
