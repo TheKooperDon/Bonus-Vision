@@ -64,43 +64,6 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card bg-dark text-center">
-            <h5 class="card-header text-white">Deleted Scenes</h5>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card bg-dark text-center">
-            <h5 class="card-header text-white">Bloopers</h5>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card bg-dark text-center">
-            <h5 class="card-header text-white">How it was Made</h5>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
     <div class="container text-left mt-5">
@@ -172,6 +135,36 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <div class="card">
+              <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="shrek2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="shrek2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="shrek2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="card">
               <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="shrek2">
               <div class="card-body">
