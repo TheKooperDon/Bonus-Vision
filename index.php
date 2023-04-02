@@ -11,11 +11,8 @@
 
 <body>
   <?php include('header.php'); ?>
-  <script type="text/javascript" src="index.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.6.4.min.js"
-  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="index.js"></script>
   <main>
 
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
@@ -79,16 +76,16 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
-              <h5 class="card-title">Shrek 2</h5>
+              <h5 class="card-title">moviedvdcovers/shrek2.jpg 2</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -97,7 +94,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -106,7 +103,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -115,7 +112,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -124,7 +121,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="moviedvdcovers/shrek2.jpg">
+            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -137,116 +134,116 @@
       <!-- Carousel & Cards -->
 
       <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 4</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 4</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 5</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 5</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 6</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 6</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 7</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 7</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 8</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 8</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
             <div class="card">
-                <div class="img-wrapper"><img src="shrek" class="d-block w-100" alt="shrek"> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 9</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="img-wrapper"><img src="moviedvdcovers/shrek2.jpg" class="d-block w-100" alt="moviedvdcovers/shrek2.jpg"> </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title 9</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <!-- Number 2 carsouel with a card -->
 
@@ -270,38 +267,38 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1" width="300" height="450">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 1" width="300" height="450">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 2" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 2" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 3" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 3" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 4" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 4" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 5" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 5" width="300">
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 6" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 6" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 7" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 7" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 8">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 8">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 9" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 9" width="300">
                   </div>
                   <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 10" width="300">
+                    <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" alt="DVD 10" width="300">
                   </div>
                 </div>
               </div>
