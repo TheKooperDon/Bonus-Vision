@@ -54,17 +54,17 @@
     </div>
 
 
-    <!--
+   
     <div class="container text-left mt-5">
-              -->
+              
       <h2>Movies</h2>
       <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
 
-      <!-- Cards Only 
+      Cards Only 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/a-new-hope.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">moviedvdcovers/shrek2.jpg 2</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -73,7 +73,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/blade-runner.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,7 +82,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/dead-mans-chest.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -91,7 +91,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/dirty-dancing.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -100,7 +100,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/finding-nemo.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -109,7 +109,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/forest-gump" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -117,10 +117,10 @@
           </div>
         </div>
       </div>
-                -->
+    </div>            
 
-      <!-- Carousel & Cards -->
-
+      <!-- Carousel & Cards 
+      
       <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -232,7 +232,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+    
+    -->
       <!-- Number 2 carsouel with a card -->
 
 
