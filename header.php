@@ -32,7 +32,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 
 <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
 	<div class="container-fluid">
-	<a class="navbar-brand" href="#">
+	<a class="navbar-brand" href="index.php">
 			<img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
 			<img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
 	  <a class="navbar-brand" href="#"></a>
@@ -45,7 +45,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 			<a class="nav-link active" aria-current="page" href="index.php">Home</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="aboutus.html">About Us</a>
+			<a class="nav-link" href="aboutus.php">About Us</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="movies.html">Movies</a>
