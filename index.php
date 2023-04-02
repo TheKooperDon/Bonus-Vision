@@ -11,6 +11,7 @@
 
 <body>
   <?php include('header.php'); ?>
+  <script src="demo_script_src.js"></script>
   <main>
 
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
