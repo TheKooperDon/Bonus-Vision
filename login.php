@@ -8,24 +8,20 @@ function redirect_user ($page = 'index.php') {
 	exit(); 					// Quit the script.
 }
 
-if (($_SERVER['QUERY_STRING'] == 'logout') AND !isset($_SESSION['user_id'])) {
+if (($_SERVER['QUERY_STRING'] == 'logout') AND isset($_SESSION['user_id'])) {
 	$_SESSION = array();					// Clear the variables.
 	session_destroy();						// Destroy the session itself.
 	setcookie ('PHPSESSID', '', time()-3600, '/', '', 0, 0); // Destroy the cookie.
 	redirect_user('login.php');
 }
 
-include ('header.php');
-
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
-	$page_title = 'Login';
 	$is_logged_in = False;
 } else {
-	$page_title = 'User Details';
 	$is_logged_in = True;
 }
 
-if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] != 'register')) {
+if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'login')) {
 	if (!isset($_SESSION['user_id'])) {
 		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
 		$p = mysqli_real_escape_string($dbc, trim($_POST['password']));
@@ -44,6 +40,8 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] != 'regi
 		redirect_user('login.php');
 	}
 }
+
+include ('header.php');
 
 if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'register')) {
 	$errors = array(); // Initialize an error array.
@@ -163,11 +161,6 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 	} // End of if (empty($errors)) IF.
 	mysqli_close($dbc); // Close the database connection.
 } // End of the main Submit conditional.
-
-
-
-
-
 ?>
 <p>Login Status: <?php echo $is_logged_in ? "True" : "False"; ?></p>
 
@@ -175,19 +168,19 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
 	echo '<h1>Login</h1>
-	<form action="login.php" method="POST">
+	<form action="login.php?login" method="POST">
 		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" name="submit" value="Login" /></p>
 	</form>';
 	echo '</br>';
 	echo '<h1>Register</h1><form action="login.php?register" method="post">';
-	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'], '" /></p>';
-	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', $_POST['firstname'], '" /></p>';
-	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', $_POST['lastname'], '" /></p>';
-	echo '<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', $_POST['email'], '"  /> </p>';
-	echo '<p>Password: <input type="password" name="password1" size="10" maxlength="20" value="', $_POST['password1'], '"  /></p>';
-	echo '<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="', $_POST['password2'], '"  /></p>';
+	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
+	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
+	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
+	echo '<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
+	echo '<p>Password: <input type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
+	echo '<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" name="submit" value="Register" /></p>';
 	echo '</form>';
 } else {
@@ -196,10 +189,10 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</br>
 	<h1>Change Your Password</h1>
 	<form action="login.php?changepass" method="post">
-		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', $_POST['email'], '"  /> </p>
-		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', $_POST['password'], '"  /></p>
-		<p>New Password: <input type="password" name="password1" size="10" maxlength="20" value="', $_POST['password1'], '"  /></p>
-		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', $_POST['password2'], '"  /></p>
+		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
+		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
+		<p>New Password: <input type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
+		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
 		<p><input type="submit" name="submit" value="Change Password" /></p>
 	</form>
 	';
