@@ -109,7 +109,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/forest-gump" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movie/posters/forest-gump.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
