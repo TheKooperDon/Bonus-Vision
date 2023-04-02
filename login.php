@@ -15,8 +15,6 @@ if (($_SERVER['QUERY_STRING'] == 'logout') AND isset($_SESSION['user_id'])) {
 	redirect_user('login.php');
 }
 
-include ('header.php');
-
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
 	$is_logged_in = False;
 } else {
@@ -42,6 +40,8 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'logi
 		redirect_user('login.php');
 	}
 }
+
+include ('header.php');
 
 if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'register')) {
 	$errors = array(); // Initialize an error array.
