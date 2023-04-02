@@ -161,11 +161,6 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 	} // End of if (empty($errors)) IF.
 	mysqli_close($dbc); // Close the database connection.
 } // End of the main Submit conditional.
-
-
-
-
-
 ?>
 <p>Login Status: <?php echo $is_logged_in ? "True" : "False"; ?></p>
 
