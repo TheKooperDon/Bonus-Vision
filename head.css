@@ -4,7 +4,14 @@
         padding-right: 10px;
     }
 /* Footer CSS */
+    .linkedin-icon {
+        color: #0e76a8;
+        font-size: 1.75em;
+    }
 
+    .linkedin-icon:hover {
+        opacity: 0.7;
+    }
 
     .facebook-icon {
         color: #3B5998;
