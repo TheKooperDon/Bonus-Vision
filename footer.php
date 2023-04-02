@@ -6,10 +6,7 @@
         <img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
       </div>
       <div class="col-5">
-        <a href="#"><i class="bi bi-instagram mx-2 insta-icon"></i></a>
-        <a href="#"><i class="bi bi-facebook mx-2 facebook-icon"></i></a>
-        <a href="#"><i class="bi bi-twitter mx-2 twitter-icon"></i></a>
-        <a href="#"><i class="bi bi-youtube mx-2 youtube-icon"></i></a>
+        <a href="https://github.com/fvrlo/SeniorCapstoneBonusVision"><i class="bi bi-github mx-2 insta-icon"></i></a>
       </div>
       <div class="col">
         <p><a href="#">Copyright and Licensing</a></p>
