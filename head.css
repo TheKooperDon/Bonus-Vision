@@ -89,6 +89,8 @@
        background-color: blue;
       padding: 10px; /* Add some padding to create space between the boxes */
     }
+
+/*
 .section-box {
     padding: 1rem;
     background-color: blue;
@@ -100,7 +102,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+*/
+/*
 .py-4 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -115,6 +118,8 @@
   justify-content: space-between;
   
 }
+
+*/
 
 .bg-img {
   background-image: ('logoimages/futurepattern.jpeg');
