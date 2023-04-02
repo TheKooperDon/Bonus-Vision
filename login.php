@@ -189,10 +189,10 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</br>
 	<h1>Change Your Password</h1>
 	<form action="login.php?changepass" method="post">
-		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', $_POST['email'], '"  /> </p>
-		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', $_POST['password'], '"  /></p>
-		<p>New Password: <input type="password" name="password1" size="10" maxlength="20" value="', $_POST['password1'], '"  /></p>
-		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', $_POST['password2'], '"  /></p>
+		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
+		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
+		<p>New Password: <input type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
+		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
 		<p><input type="submit" name="submit" value="Change Password" /></p>
 	</form>
 	';
