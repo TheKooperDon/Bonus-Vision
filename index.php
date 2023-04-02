@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<!--
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,11 +8,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.typekit.net/fqq5ksl.css">
 </head>
-
+-->
 <body>
   <?php include('header.php'); ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="index.js"></script>
+  <!--<script src="index.js"></script>-->
   <main>
 
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
@@ -66,9 +66,9 @@
     </div>
 
 
-
+    <!--
     <div class="container text-left mt-5">
-
+              -->
       <h2>Movies</h2>
       <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
 
@@ -133,7 +133,7 @@
 
       <!-- Carousel & Cards -->
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="card">
