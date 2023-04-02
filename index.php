@@ -23,10 +23,10 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">Deleted Scenes</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=UzeIb-TZo_I"></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=UDwV34L2JoY"></iframe>
             </div>
           </div>
         </div>
@@ -34,10 +34,10 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">Bloopers</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=N0nwlxGO024"></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=OjvlEfon2hE"></iframe>
             </div>
           </div>
         </div>
@@ -45,10 +45,10 @@ include('header.php'); ?>
           <div class="card bg-dark text-center">
             <h5 class="card-header text-white">How it was Made</h5>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=x_qm280q2e0"></iframe>
             </div>
             <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=BdHCp62jC84"></iframe>
             </div>
           </div>
         </div>
