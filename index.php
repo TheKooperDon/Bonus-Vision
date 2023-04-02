@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <!--<script src="index.js"></script>-->
   <main>
 
@@ -64,7 +64,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="movie/posters/a-new-hope.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/a-new-hope.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">moviedvdcovers/shrek2.jpg 2</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -73,7 +73,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/blade-runner.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/blade-runner.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,7 +82,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/dead-mans-chest.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -91,7 +91,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/dirty-dancing.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -100,7 +100,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/finding-nemo.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/finding-nemo.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -109,7 +109,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="movie/posters/forest-gump" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
+            <img src="movieposters/forest-gump.png" class="card-img-top" alt="moviedvdcovers/moviedvdcovers/shrek2.jpg2.jpg">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
