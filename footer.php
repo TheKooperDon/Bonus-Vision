@@ -3,7 +3,6 @@
     <div class="row">
       <div class="col">
         <img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
-        <img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
       </div>
       <div class="col-5">
         <a href="https://github.com/fvrlo/SeniorCapstoneBonusVision"><i class="bi bi-github mx-2 insta-icon"></i></a>
