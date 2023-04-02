@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.92 44.67">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+        stroke-width: .25px;
+      }
+
+      .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-2 {
+        font-family: FuturaPT-Book, 'Futura PT';
+        font-size: 50px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 37.78)"><tspan x="0" y="0">BONUS VISION</tspan></text>
+  <g>
+    <circle class="cls-1" cx="272.86" cy="21.28" r="5.77"/>
+    <circle class="cls-4" cx="275.7" cy="16.27" r="1.46"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="46.63" cy="21.24" r="4.09"/>
+    <circle class="cls-5" cx="46.63" cy="21.24" r="1.36"/>
+  </g>
+</svg>

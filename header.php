@@ -34,7 +34,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	<div class="container-fluid">
 	<a class="navbar-brand" href="index.php">
 			<img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
-			<img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
+			<img src="logoimages/onlywhitetext.svg" alt="Bootstrap" width="200" height="24">
 	  <a class="navbar-brand" href="#"></a>
 	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
