@@ -182,7 +182,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</form>';
 	echo '</br>';
 	echo '<h1>Register</h1><form action="login.php?register" method="post">';
-	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', $_POST['username'], '" /></p>';
+	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'], '" /></p>';
 	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', $_POST['firstname'], '" /></p>';
 	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', $_POST['lastname'], '" /></p>';
 	echo '<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', $_POST['email'], '"  /> </p>';

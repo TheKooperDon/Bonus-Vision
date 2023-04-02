@@ -310,7 +310,4 @@ include('header.php'); ?>
       <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
 
     </div>
-
-
-</html>
 <?php include('footer.php'); ?>
