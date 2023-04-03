@@ -4,7 +4,7 @@ include('header.php'); ?>
   
   <!--<script src="index.js"></script>-->
   <main>
-
+  <!--
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
       <h1>Welcome to Bonus Vision</h1>
       <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
@@ -13,6 +13,16 @@ include('header.php'); ?>
       <h2>Why Bonus Vision?</h2>
       <p class="lead">Accessing Bonus Feature content without physical media is currently not possible in this streaming age that we are in. With Bonus Vision we provide a convenient and easy to navigate platform that holds all the missing content from your favorite movies in one location.</p>
       <h2>Bonus Features</h2>
+    </div>
+-->
+    <div class="container-fluid p-0">
+      <div class="hero-image d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <h1 class="display-4">Welcome to Bonus Vision</h1>
+          <img src="logoimages/futurepattern.jpeg" alt="Hero Image" class="img-fluid mb-4">
+          <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
+        </div>
+      </div>
     </div>
 
 
@@ -68,7 +78,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/a-new-hope.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Star Wars a New Hope</h5>
+              <h5 class="card-title">Star Wars: A New Hope</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
@@ -77,7 +87,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/blade-runner.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Blade Runner</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
@@ -87,7 +97,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Pirates of the Caribbean Deads Mans Chest</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
@@ -97,7 +107,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Dirty Dancing</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
@@ -107,7 +117,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/finding-nemo.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Finding Nemo</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
@@ -117,7 +127,7 @@ include('header.php'); ?>
           <div class="card">
             <img src="movieposters/forest-gump.png" class="card-img-top" alt="Movie Cover Image">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Forest Gump</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <a href="#" class="btn btn-primary">Watch Now</a>
             </div>
