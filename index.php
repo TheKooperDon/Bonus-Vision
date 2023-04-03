@@ -15,15 +15,15 @@ include('header.php'); ?>
       <h2>Bonus Features</h2>
     </div>
 -->
-    <div class="container-fluid p-0">
-      <div class="hero-image d-flex justify-content-center align-items-center">
-        <div class="text-center">
-          <h1 class="display-4">Welcome to Bonus Vision</h1>
-          <img src="logoimages/futurepattern.jpeg" alt="Hero Image" class="img-fluid mb-4">
-          <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
-        </div>
+
+<div class="hero-image d-flex justify-content-center align-items-center">
+      <div class="hero-text">
+        <h1>Welcome to Bonus Vision<</h1>
+        <p>Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
       </div>
     </div>
+    
+   
 
 
 

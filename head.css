@@ -148,5 +148,40 @@
 /*Jeffs Shit*/
 
 
-/*car with cards CSS*/
+/*heroimage*/
 
+
+.hero-image {
+    height: 70vh;
+    background-image: url('logoimages/futurepattern.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-image:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text p {
+    font-size: 2rem;
+  }
