@@ -190,9 +190,10 @@
 
   .hero-image {
     height: 70vh;
-    background-image: url(https://via.placeholder.com/1200x800);
+    background-image: url(logoimages/futurepattern.jpeg);
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
