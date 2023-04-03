@@ -311,9 +311,12 @@ include('header.php'); ?>
     </div>
 
     -->
+    </div>
+    <div class="text-center">
       <h2>What are you waiting for? Sign up now!</h2>
-
       <button type="button" class="btn btn-outline-primary btn-lg">Sign Up</button>
 
     </div>
+
+    
 <?php include('footer.php'); ?>
