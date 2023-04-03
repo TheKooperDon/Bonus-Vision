@@ -5,7 +5,7 @@ include('header.php'); ?>
   <!--<script src="index.js"></script>-->
   <main>
   <!--
-    <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
+    <div class="container bg-img text-white py-4 mb-4" style="background-image: url('logoimages/futurepattern.jpeg');">
       <h1>Welcome to Bonus Vision</h1>
       <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
     </div>
@@ -18,7 +18,7 @@ include('header.php'); ?>
 
 <div class="hero-image d-flex justify-content-center align-items-center">
       <div class="hero-text">
-        <h1>Welcome to Bonus Vision<</h1>
+        <h1>Welcome to Bonus Vision</h1>
         <p>Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
       </div>
     </div>
