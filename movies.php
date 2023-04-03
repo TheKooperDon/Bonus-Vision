@@ -10,11 +10,6 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 
   <style>
-    body {
-      padding-top: 60px;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
     .card-img-top {
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -26,56 +21,7 @@
   </head>
   <body>
     <header>
-<!--NAV BAR BEGINNING 
-*******************************-->
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-                <img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
-                <img src="logoimages/whitetextonly1.svg" alt="Bootstrap" width="200" height="24">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Movies</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Bonus Features
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Deleted Scenes</a></li>
-                  <li><a class="dropdown-item" href="#">Bloopers</a></li>
-                  <li><a class="dropdown-item" href="#">Director's Commentary</a></li>
-                  <li><a class="dropdown-item" href="#">Behind the Scenes</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Games</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="register.php">Log In</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!--NAV BAR ENDING 
-    *************************-->
+
     <main>
       <h1>Movies</h1>
 
