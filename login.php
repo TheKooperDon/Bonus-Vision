@@ -201,7 +201,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'dele
 		}
 		echo '</p><p>Please try again.</p><p><br /></p>';
 	} // End of if (empty($errors)) IF.
-}.
+}
 ?>
 <p>Login Status: <?php echo $is_logged_in ? "True" : "False"; ?></p>
 
