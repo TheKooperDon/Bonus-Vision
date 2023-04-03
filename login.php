@@ -161,6 +161,47 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 	} // End of if (empty($errors)) IF.
 	mysqli_close($dbc); // Close the database connection.
 } // End of the main Submit conditional.
+
+if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'delete')){
+	$errors = array(); // Initialize an error array.
+	if (empty($_POST['email'])) {
+		$errors[] = 'You forgot to enter your email address.';
+	} else {
+		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
+	}
+	if (!empty($_POST['password'])) {
+		if ($_POST['password'] != $_POST['password2']) {
+			$errors[] = 'Your passwords did not match.';
+		} else {
+			$p = mysqli_real_escape_string($dbc, trim($_POST['password']));
+		}
+	} else {
+		$errors[] = 'You forgot to enter your new password.';
+	}
+	
+	if (empty($errors)) { // If everything's OK.
+		$q = "DELETE FROM users WHERE (email='$e' AND password=SHA2('$p',256))";
+		$r = @mysqli_query($dbc, $q);
+		$num = @mysqli_num_rows($r);
+		if (mysqli_affected_rows($dbc) == 1) { // Match was made.
+			$_SESSION = array();					// Clear the variables.
+			session_destroy();						// Destroy the session itself.
+			setcookie ('PHPSESSID', '', time()-3600, '/', '', 0, 0); // Destroy the cookie.
+			mysqli_close($dbc); // Close the database connection.
+			redirect_user('login.php');
+		} else { // Invalid email address/password combination.
+			echo '<h1>Error!</h1>
+			<p class="error">The email address and password do not match those on file.</p>';
+		}
+	} else { // Report the errors.
+		echo '<h1>Error!</h1>
+		<p class="error">The following error(s) occurred:<br />';
+		foreach ($errors as $msg) { // Print each error.
+			echo " - $msg<br />\n";
+		}
+		echo '</p><p>Please try again.</p><p><br /></p>';
+	} // End of if (empty($errors)) IF.
+}.
 ?>
 <p>Login Status: <?php echo $is_logged_in ? "True" : "False"; ?></p>
 
@@ -195,6 +236,15 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
 		<p><input type="submit" name="submit" value="Change Password" /></p>
 	</form>
+	</br>
+	<h1>Delete Your Account</h1>
+	<form action="login.php?delete" method="post">
+		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
+		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
+		<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
+		<p><input type="submit" name="submit" value="Delete" /></p>
+	</form>
+	<h2>There is no confirm screen, so be careful!</h2>
 	';
 }
 ?>
