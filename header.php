@@ -48,7 +48,7 @@ $page_title = 'BonusVision';
 			<a class="nav-link" href="aboutus.php">About Us</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="movies.html">Movies</a>
+			<a class="nav-link" href="movies.php">Movies</a>
 		  </li>
 		  
 		  <li class="nav-item dropdown">
