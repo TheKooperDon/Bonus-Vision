@@ -182,7 +182,6 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'dele
 	if (empty($errors)) { // If everything's OK.
 		$q = "DELETE FROM users WHERE (email='$e' AND password=SHA2('$p',256))";
 		$r = @mysqli_query($dbc, $q);
-		$num = @mysqli_num_rows($r);
 		if (mysqli_affected_rows($dbc) == 1) { // Match was made.
 			$_SESSION = array();					// Clear the variables.
 			session_destroy();						// Destroy the session itself.
