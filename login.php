@@ -8,6 +8,46 @@ function redirect_user ($page = 'index.php') {
 	exit(); 					// Quit the script.
 }
 
+if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'delete')){
+	$errors = array(); // Initialize an error array.
+	if (empty($_POST['email'])) {
+		$errors[] = 'You forgot to enter your email address.';
+	} else {
+		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
+	}
+	if (!empty($_POST['password'])) {
+		if ($_POST['password'] != $_POST['password2']) {
+			$errors[] = 'Your passwords did not match.';
+		} else {
+			$p = mysqli_real_escape_string($dbc, trim($_POST['password']));
+		}
+	} else {
+		$errors[] = 'You forgot to enter your new password.';
+	}
+	
+	if (empty($errors)) { // If everything's OK.
+		$q = "DELETE FROM users WHERE (email='$e' AND password=SHA2('$p',256))";
+		$r = @mysqli_query($dbc, $q);
+		if (mysqli_affected_rows($dbc) == 1) { // Match was made.
+			$_SESSION = array();					// Clear the variables.
+			session_destroy();						// Destroy the session itself.
+			setcookie ('PHPSESSID', '', time()-3600, '/', '', 0, 0); // Destroy the cookie.
+			mysqli_close($dbc); // Close the database connection.
+			redirect_user('login.php');
+		} else { // Invalid email address/password combination.
+			echo '<h1>Error!</h1>
+			<p class="error">The email address and password do not match those on file.</p>';
+		}
+	} else { // Report the errors.
+		echo '<h1>Error!</h1>
+		<p class="error">The following error(s) occurred:<br />';
+		foreach ($errors as $msg) { // Print each error.
+			echo " - $msg<br />\n";
+		}
+		echo '</p><p>Please try again.</p><p><br /></p>';
+	} // End of if (empty($errors)) IF.
+}
+
 if (($_SERVER['QUERY_STRING'] == 'logout') AND isset($_SESSION['user_id'])) {
 	$_SESSION = array();					// Clear the variables.
 	session_destroy();						// Destroy the session itself.
@@ -161,46 +201,6 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 	} // End of if (empty($errors)) IF.
 	mysqli_close($dbc); // Close the database connection.
 } // End of the main Submit conditional.
-
-if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'delete')){
-	$errors = array(); // Initialize an error array.
-	if (empty($_POST['email'])) {
-		$errors[] = 'You forgot to enter your email address.';
-	} else {
-		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
-	}
-	if (!empty($_POST['password'])) {
-		if ($_POST['password'] != $_POST['password2']) {
-			$errors[] = 'Your passwords did not match.';
-		} else {
-			$p = mysqli_real_escape_string($dbc, trim($_POST['password']));
-		}
-	} else {
-		$errors[] = 'You forgot to enter your new password.';
-	}
-	
-	if (empty($errors)) { // If everything's OK.
-		$q = "DELETE FROM users WHERE (email='$e' AND password=SHA2('$p',256))";
-		$r = @mysqli_query($dbc, $q);
-		if (mysqli_affected_rows($dbc) == 1) { // Match was made.
-			$_SESSION = array();					// Clear the variables.
-			session_destroy();						// Destroy the session itself.
-			setcookie ('PHPSESSID', '', time()-3600, '/', '', 0, 0); // Destroy the cookie.
-			mysqli_close($dbc); // Close the database connection.
-			redirect_user('login.php');
-		} else { // Invalid email address/password combination.
-			echo '<h1>Error!</h1>
-			<p class="error">The email address and password do not match those on file.</p>';
-		}
-	} else { // Report the errors.
-		echo '<h1>Error!</h1>
-		<p class="error">The following error(s) occurred:<br />';
-		foreach ($errors as $msg) { // Print each error.
-			echo " - $msg<br />\n";
-		}
-		echo '</p><p>Please try again.</p><p><br /></p>';
-	} // End of if (empty($errors)) IF.
-}
 ?>
 <p>Login Status: <?php echo $is_logged_in ? "True" : "False"; ?></p>
 
