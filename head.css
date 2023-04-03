@@ -150,7 +150,7 @@
 
 /*heroimage*/
 
-
+/*
 .hero-image {
     height: 70vh;
     background-image: url('logoimages/futurepattern.jpeg');
@@ -184,4 +184,21 @@
 
   .hero-text p {
     font-size: 2rem;
+  }
+
+  */
+
+  .hero-image {
+    height: 70vh;
+    background-image: url(https://via.placeholder.com/1200x800);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    color: white;
+    text-align: center;
   }
