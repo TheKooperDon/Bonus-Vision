@@ -120,7 +120,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title">Finding Nemo</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-info">Watch Now</a>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title">Forest Gump</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-dark">Watch Now</a>
             </div>
           </div>
         </div>
