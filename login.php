@@ -209,14 +209,14 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
 	echo '<div class: "m-5 p-3">
 	<h1 class: "px-3">Login</h1>
-	<form class= "card p-3 bg-light w-33" action="login.php?login" method="POST">
+	<form class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" name="submit" value="Login" /></p>
 	</form>
 	</div>';
 	echo '</br>';
-	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light w-33" action="login.php?register" method="post">';
+	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
 	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
 	echo '<p>First Name: <input class="form-control" type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
 	echo '<p>Last Name: <input class="form-control" type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
@@ -230,7 +230,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	<p><a href="login.php?logout">Logout</a></p>
 	</br>
 	<h1>Change Your Password</h1>
-	<form class= "card p-3 bg-light w-33" action="login.php?changepass" method="post">
+	<form class= "card p-3 bg-light w-25" action="login.php?changepass" method="post">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
 		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
 		<p>New Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
@@ -239,7 +239,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</form>
 	</br>
 	<h1>Delete Your Account</h1>
-	<form class= "card p-3 bg-light w-33" action="login.php?delete" method="post">
+	<form class= "card p-3 bg-light w-25" action="login.php?delete" method="post">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
 		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
 		<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
