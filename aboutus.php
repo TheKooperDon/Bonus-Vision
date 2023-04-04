@@ -9,8 +9,10 @@
 </head>
 <body>
 <?php include('header.php'); ?>
-    <main>
     
+  <main>
+  
+  <div class="container text-left mt-5">
     <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
         <h1>Welcome to Bonus Vision</h1>
         <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
@@ -20,7 +22,7 @@
         <p class="lead">Accessing Bonus Feature content without physical media is currently not possible in this streaming age that we are in. With Bonus Vision we provide a convenient and easy to navigate platform that holds all the missing content from your favorite movies in one location.</p>
         <h2>Bonus Features</h2>
     </div>
-    
+  </div>
     
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
