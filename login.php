@@ -212,7 +212,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	<form class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
-		<p><input type="submit" name="submit" value="Login" /></p>
+		<p><input type="submit" class="btn btn-dark" name="submit" value="Login" /></p>
 	</form>
 	</div>';
 	echo '</br>';
@@ -223,11 +223,11 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
 	echo '<p>Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
 	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
-	echo '<p><input type="submit" name="submit" value="Register" /></p>';
+	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
 } else {
 	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
-	<p><a href="login.php?logout"><button type="button" class="btn colorbutton">Logout</button></a></p>
+	<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
 	</br>
 	<h1>Change Your Password</h1>
 	<form class= "card p-3 bg-light w-25" action="login.php?changepass" method="post">
@@ -235,7 +235,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
 		<p>New Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
 		<p>Confirm New Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
-		<p><input type="submit" name="submit" value="Change Password" /></p>
+		<p><input type="submit" class="btn btn-dark" name="submit" value="Change Password" /></p>
 	</form>
 	</br>
 	<h1>Delete Your Account</h1>
@@ -243,7 +243,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
 		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
 		<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
-		<p><input type="submit" name="submit" value="Delete" /></p>
+		<p><input type="submit" class="btn btn-dark" name="submit" value="Delete" /></p>
 	</form>
 	<h2>There is no confirm screen, so be careful!</h2>
 	';
