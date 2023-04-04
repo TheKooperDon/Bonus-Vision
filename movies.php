@@ -27,7 +27,7 @@
 
     <!-- ************************
     BEGINNING OF MOVIE POSTER GRID -->
-    <div class="grid text-center">
+    <div class="grid text-start">
         <div class="g-col-12 g-col-md-4">
 
           <!-- CODE FOR THE MOVIE CARD
