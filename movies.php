@@ -34,15 +34,13 @@
           <!-- CODE FOR THE MOVIE CARD
           **************************
           THIS SHOULD USE PHP TO PULL GENRE/RELEASE YEAR/DESCRIPTION/PRODUCTION TEAM FROM DATABASE -->
-          <p>
+          
             <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               <img src="movieposters/shrek-2-poster.png" class="card-img-top" alt="Shrek 2 Poster">
             </button>
-          </p>
+          
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              
-
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</li>
               <li class="list-group-item">Animation / Family</li>
