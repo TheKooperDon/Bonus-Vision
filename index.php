@@ -326,7 +326,7 @@ include('header.php'); ?>
     </div>
     <div class="text-center">
       <h2>What are you waiting for? Sign up now!</h2>
-      <a href='login.php'><button type="button" class="btn btn-warning btn-lg text-center w-75">Sign Up</button></a>
+      <a href='login.php'><button type="button" class="btn btn-warning btn-lg text-center w-100"><strong>Sign Up<strong></button></a>
       <br>
 
     </div>
