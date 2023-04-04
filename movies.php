@@ -11,9 +11,8 @@
 
   <style>
     .card-img-top {
-        border-radius: 10px; 
+        border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        
     }
     .btn btn-primary {
       border: black 1px;
@@ -21,12 +20,10 @@
   </style>
   </head>
   <body>
-    
     <header>
 
     <main>
-    
-    <h1>Movies</h1>
+      <h1>Movies</h1>
 
     <!-- ************************
     BEGINNING OF MOVIE POSTER GRID -->
@@ -43,10 +40,7 @@
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text text-start">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy.<span id="more" style="display:none">
-              Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.
-      </span> </p>
-      <button type="button" class="btn btn-link" onclick="toggleReadMore()">Read More</button>
+              <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</p>
           
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Animation / Family</li>
@@ -338,21 +332,8 @@
       </div>
       <!-- END OF THE MOVIE POSTER GRID
       *********************************-->
-   
     </main>
-    <script>
-  function toggleReadMore() {
-    var moreText = document.getElementById("more");
-    var btnText = document.querySelector(".card .btn");
-    if (moreText.style.display === "none") {
-      moreText.style.display = "inline";
-      btnText.textContent = "Read Less";
-    } else {
-      moreText.style.display = "none";
-      btnText.textContent = "Read More";
-    }
-  }
-</script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <?php include ('footer.php'); ?>
