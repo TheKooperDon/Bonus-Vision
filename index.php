@@ -76,60 +76,61 @@ include('header.php'); ?>
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
           <div class="card">
-            <img src="movieposters/a-new-hope.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/a-new-hope.png" class="card-img-top" alt="Star wars movie poster">
             <div class="card-body">
               <h5 class="card-title">Star Wars: A New Hope</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/blade-runner.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/blade-runner.png" class="card-img-top" alt="Blade runner movie poster">
             <div class="card-body">
               <h5 class="card-title">Blade Runner</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Watch Now</a>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/dead-mans-chest.png" class="card-img-top" alt="Pirates of the caribbean, dead mans chest movie poster">
             <div class="card-body">
               <h5 class="card-title">Pirates of the Caribbean Deads Mans Chest</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Watch Now</a>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/dirty-dancing.png" class="card-img-top" alt="Dirty dancing movie poster">
             <div class="card-body">
               <h5 class="card-title">Dirty Dancing</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Watch Now</a>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/finding-nemo.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/finding-nemo.png" class="card-img-top" alt="Finding Nemo Movie Poster">
             <div class="card-body">
               <h5 class="card-title">Finding Nemo</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Watch Now</a>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="movieposters/forest-gump.png" class="card-img-top" alt="Movie Cover Image">
+            <img src="movieposters/forest-gump.png" class="card-img-top" alt="Forest Gump movie poster">
             <div class="card-body">
               <h5 class="card-title">Forest Gump</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Watch Now</a>
+              <a href="#" class="btn btn-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -321,10 +322,12 @@ include('header.php'); ?>
     </div>
 
     -->
+    <br><br>
     </div>
     <div class="text-center">
       <h2>What are you waiting for? Sign up now!</h2>
-      <button type="button" class="btn btn-outline-primary btn-lg">Sign Up</button>
+      <a href='login.php'><button type="button" class="d-grid btn btn-warning btn-lg">Sign Up</button></a>
+      <br>
 
     </div>
 
