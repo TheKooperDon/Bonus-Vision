@@ -211,18 +211,18 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	<h1 class: "px-3">Login</h1>
 	<form  class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
-		<p>Password: <input type="password" name="password" size="20" maxlength="20" /></p>
+		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" name="submit" value="Login" /></p>
 	</form>
 	</div>';
 	echo '</br>';
-	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light" action="login.php?register" method="post">';
-	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
-	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
-	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
-	echo '<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
-	echo '<p>Password: <input type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
-	echo '<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
+	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
+	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
+	echo '<p>First Name: <input class="form-control" type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
+	echo '<p>Last Name: <input class="form-control" type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
+	echo '<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
+	echo '<p>Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
+	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" name="submit" value="Register" /></p>';
 	echo '</form>';
 } else {
@@ -231,18 +231,18 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</br>
 	<h1>Change Your Password</h1>
 	<form action="login.php?changepass" method="post">
-		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
-		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
-		<p>New Password: <input type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
-		<p>Confirm New Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
+		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
+		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
+		<p>New Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>
+		<p>Confirm New Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
 		<p><input type="submit" name="submit" value="Change Password" /></p>
 	</form>
 	</br>
 	<h1>Delete Your Account</h1>
 	<form action="login.php?delete" method="post">
-		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
-		<p>Current Password: <input type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
-		<p>Confirm Password: <input type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
+		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
+		<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
+		<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
 		<p><input type="submit" name="submit" value="Delete" /></p>
 	</form>
 	<h2>There is no confirm screen, so be careful!</h2>
