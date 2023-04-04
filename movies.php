@@ -23,6 +23,7 @@
     <header>
 
     <main>
+    <div class="hero-image d-flex justify-content-center align-items-center">
       <h1>Movies</h1>
 
     <!-- ************************
@@ -334,6 +335,7 @@
       </div>
       <!-- END OF THE MOVIE POSTER GRID
       *********************************-->
+    </div>
     </main>
 
     <?php include ('footer.php'); ?>
