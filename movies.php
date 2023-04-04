@@ -58,7 +58,7 @@ function showMore() {
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy.<a href="#" onclick="showMore()">Read more</a> Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</p>
+              <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is <a href="#" onclick="showMore()">Read more</a> happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</p>
           
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Animation / Family</li>
