@@ -65,9 +65,8 @@
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text">A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.</p>
-          
             <ul class="list-group list-group-flush">
+              <li class="card-text">A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.</li>
               <li class="list-group-item">Drama / Adventure</li>
               <li class="list-group-item">1994</li>
               <li class="list-group-item">Paramount Pictures</li>
