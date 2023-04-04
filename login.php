@@ -227,7 +227,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '</form>';
 } else {
 	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
-	<p><a href="login.php?logout"><button type="button" class="btn btn-outline-warning">Logout</button></a></p>
+	<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
 	</br>
 	<h1>Change Your Password</h1>
 	<form class= "card p-3 bg-light w-25" action="login.php?changepass" method="post">
