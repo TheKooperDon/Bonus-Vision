@@ -1,4 +1,5 @@
-<?php include ('header.php'); ?>
+<?php include ('header.php'); 
+$page_title = 'Movies';?>
 <!doctype html>
 <html lang="en">
   <head>

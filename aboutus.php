@@ -1,197 +1,116 @@
+<?php include('header.php'); 
+$page_title = 'About Us';?>
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Us | Bonus Vision</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.typekit.net/fqq5ksl.css">
-</head>
-<body>
-<?php include('header.php'); ?>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+
+    <main>
     
-  <main>
-  
-  <div class="container text-left mt-5">
-    <div class="container bg-img text-white py-4 mb-4" style="background-image: url('/logoimages/futurepattern.jpeg');">
-        <h1>Welcome to Bonus Vision</h1>
-        <p class="lead">Say goodbye to remotes and get closer to your favorite shows on any streaming service.</p>
-    </div>
-    <div class="container text-left mt-5">
-        <h2>Why Bonus Vision?</h2>
-        <p class="lead">Accessing Bonus Feature content without physical media is currently not possible in this streaming age that we are in. With Bonus Vision we provide a convenient and easy to navigate platform that holds all the missing content from your favorite movies in one location.</p>
-        <h2>Bonus Features</h2>
-    </div>
-  </div>
-    
-  <div class="container">
-    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
-      <div class="col">
-        <div class="card bg-dark text-center">
-          <h5 class="card-header text-white">Deleted Scenes</h5>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+    <h1 class="px-3">Meet the Team</h1>
+<!-- BEGINNING OF PROFILE CARDS ***********************************-->
+    <div class="px-3 grid text-center">
+      <div class="g-col-12 g-col-md-6 g-col-xl-3 cardcontainer container-fluid">
+        <div class="card profilecard" style="width: 100%;">
+          <img src="teamphotos/matt-nowak.png" class="img-fluid card-img-top" alt="Photo of Handler, Matt Nowak">
+          <div class="card-body">
+            <h5 class="card-title">Matthew Nowak<a href="https://www.linkedin.com/in/matthew-nowak-wi/" target="_blank"><i class="bi bi-linkedin mx-2 linkedin-icon"></i></a></h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Handler</h6>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card bg-dark text-center">
-          <h5 class="card-header text-white">Bloopers</h5>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive- p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card bg-dark text-center">
-          <h5 class="card-header text-white">How it was Made</h5>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 embed-responsive-sm p-3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+
+      <div class="g-col-12 g-col-md-6 g-col-xl-3 cardcontainer container-fluid">
+        <div class="card profilecard" style="width: 100%;">
+          <img src="teamphotos/jeff-v.png" class="img-fluid card-img-top" alt="Photo of Hipster, Jeff">
+          <div class="card-body">
+            <h5 class="card-title">Jeffery Valodine<a href="https://www.linkedin.com/in/jsvjr/" target="_blank"><i class="bi bi-linkedin mx-2 linkedin-icon"></i></a></h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Hipster</h6>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
+      <div class="g-col-12 g-col-md-6 g-col-xl-3 cardcontainer container-fluid">
+        <div class="card profilecard" style="width: 100%;">
+          <img src="teamphotos/matt-madia.png" class="img-fluid card-img-top" alt="Photo of Hustler, Matt Madia">
+          <div class="card-body">
+            <h5 class="card-title">Matthew Madia<a href="https://www.linkedin.com/in/matthew-madia/" target="_blank"><i class="bi bi-linkedin mx-2 linkedin-icon"></i></a></h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Hustler</h6>
+          </div>
+        </div>
+      </div>
 
-    <div class="container text-left mt-5">
-   
-    <h2>Movies</h2>
-    <p>Here at Bonus Vision we have collected a wide variety of Bonus Feature content from all the movies you love, such as the ones listed below.</p>
-    
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Shrek 2</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div class="g-col-12 g-col-md-6 g-col-xl-3 cardcontainer container-fluid">
+        <div class="card profilecard" style="width: 100%;">
+          <img src="teamphotos/max-peter.png" class="img-fluid card-img-top" alt="Photo of Hacker, Max">
+          <div class="card-body">
+            <h5 class="card-title">Maxwell Peter<a href="https://www.linkedin.com/in/maxwell-peter/" target="_blank"><i class="bi bi-linkedin mx-2 linkedin-icon"></i></a></h5> 
+            <h6 class="card-subtitle mb-2 text-body-secondary">Hacker</h6>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="moviedvdcovers/shrek2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
+    </div>
+  <!-- END OF PROFILE CARDS ******************************************-->
+    <br>    
+  <!-- *******************************************
+          BEGINNING OF ACCORDIAN FOR ABOUT US-->
+        
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-1">
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="p-3 accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h5 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h5>Who are we?</h5>
           </button>
-        </div>
-        <div class="col-10">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 1" width="300" height="450">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 2" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 3" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 4" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 5" width="300">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 6" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 7" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 8">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 9" width="300">
-                  </div>
-                  <div class="col-2">
-                    <img src="moviedvdcovers/shrek2.jpg" alt="DVD 10" width="300">
-                  </div>
-                </div>
-              </div>
-            </div>
+        </h5>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>We are Bonus Vision.</strong> We are four passionate Information Science majors from the University of Wisconsin-Milwaukee who are looking to make a difference.  We each bring our own unique skill sets to the team, making us a well rounded team with strong ambitions for our futures.
           </div>
         </div>
-        <div class="col-1">
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+      </div>
+      <div class="accordion-item">
+        <h5 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5>What is Bonus Vision?</h5>
           </button>
+        </h5>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Bonus Vision</strong> is a project that we are putting together for our collective Senior Capstone.  Our mission is to bring back the lost art of <strong>Bonus Features</strong>. Lost in the ways of the streaming world, Bonus Features were once packed onto DVDs and provided additional entertainment to your movies.  Whether it was a game, a blooper reel, behind the scenes, or a director commentary, these features always brought fun insight and extra content beyond your usual viewing experience.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h5 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h5>The Future</h5>
+          </button>
+        </h5>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our focus is on developing a product that exceeds the expectations of our users. We will continue to develop Bonus Vision as it grows.
+          </div>
         </div>
       </div>
     </div>
-    <h2>What are you waiting for? Sign up now!</h2>
-    <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
-  
-    </div>
 
+<!-- ************************************
+      END OF ACCORDIANS-->
 
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
 </html>
 <?php include('footer.php'); ?>

@@ -1,5 +1,6 @@
 <?php
 include('mysqli_connect.php');
+$page_title = 'Join Us! Login or Register.';
 session_start();
 
 function redirect_user ($page = 'index.php') {
