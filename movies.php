@@ -61,13 +61,21 @@
             </p>
             <div class="collapse" id="collapseExample">
               <div class="card card-body">
-                <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is
+                <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is </p>
+
+
+            
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                  happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.
+                  </div>
+                </div>
                 <div class="collapse" id="collapseExample">
                   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Read More
+                    
                   </a>
                   <div class="card card-body">
-                    happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.
+                    
                   </div>
                   </p>
 
