@@ -214,7 +214,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 		<p><input type="submit" name="submit" value="Login" /></p>
 	</form>';
 	echo '</br>';
-	echo '<h1>Register</h1><form action="login.php?register" method="post">';
+	echo '<h1>Register</h1><form class= "card p-3 bg-light" action="login.php?register" method="post">';
 	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
 	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
 	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
