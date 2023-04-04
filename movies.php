@@ -43,7 +43,7 @@
               
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">hrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</li>
+              <li class="list-group-item">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</li>
               <li class="list-group-item">Animation / Family</li>
               <li class="list-group-item">2004</li>
               <li class="list-group-item">Dreamworks Pictures</li>
