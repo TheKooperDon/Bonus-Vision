@@ -34,11 +34,11 @@
           <!-- CODE FOR THE MOVIE CARD
           **************************
           THIS SHOULD USE PHP TO PULL GENRE/RELEASE YEAR/DESCRIPTION/PRODUCTION TEAM FROM DATABASE -->
-          
+          <p>
             <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              <img src="movieposters/shrek-2-poster.png" class="card-img-top" alt="Shrek 2 Poster">
+              <img src="movieposters/shrek-2-poster.png" class="card-img-top" alt="Shrek 2 Poster" width="300">
             </button>
-          
+          </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
             <ul class="list-group list-group-flush">
