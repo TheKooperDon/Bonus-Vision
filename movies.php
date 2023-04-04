@@ -11,7 +11,7 @@
 
   <style>
     .card-img-top {
-        /*border-radius: 10px; */
+        border-radius: 10px; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         
     }
@@ -43,7 +43,7 @@
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. <button type="button" class="btn btn-link" onclick="toggleReadMore()">Read More</button><span id="more" style="display:none">
+              <p class="card-text text-left">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. <button type="button" class="btn btn-link" onclick="toggleReadMore()">Read More</button><span id="more" style="display:none">
               Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.
       </span> </p>
           
