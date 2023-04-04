@@ -207,14 +207,16 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
-	echo '<h1 class: "p-3">Login</h1>
+	echo '<div class: "mt-5 p-3">
+	<h1 class: "px-3">Login</h1>
 	<form  class= "card p-3 bg-light" action="login.php?login" method="POST">
 		<p>Email Address: <input type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" name="submit" value="Login" /></p>
-	</form>';
+	</form>
+	</div>';
 	echo '</br>';
-	echo '<h1 class: "p-3">Register</h1><form class= "card p-3 bg-light" action="login.php?register" method="post">';
+	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light" action="login.php?register" method="post">';
 	echo '<p>Username: <input type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
 	echo '<p>First Name: <input type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
 	echo '<p>Last Name: <input type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
