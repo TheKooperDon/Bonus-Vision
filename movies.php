@@ -5,7 +5,6 @@ $page_title = 'Movies';?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Movies | Bonus Vision</title>
 
   <style>
     .card-img-top {
