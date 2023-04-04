@@ -53,6 +53,10 @@
     }
 /* End of Footer CSS */
 
+.colorbutton {
+  background-color: #47A8A0;
+}
+
 .pagenumbers{
 	display: grid;
 	place-items: center; 
