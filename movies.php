@@ -23,7 +23,7 @@
     <header>
 
     <main>
-    <div class="hero-image d-flex justify-content-center align-items-center">
+    <div class="container mt-5">
       <h1>Movies</h1>
 
     <!-- ************************
