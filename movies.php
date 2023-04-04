@@ -43,9 +43,10 @@
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text text-left">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. <button type="button" class="btn btn-link" onclick="toggleReadMore()">Read More</button><span id="more" style="display:none">
+              <p class="card-text text-left">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy.<span id="more" style="display:none">
               Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.
       </span> </p>
+      <button type="button" class="btn btn-link" onclick="toggleReadMore()">Read More</button>
           
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Animation / Family</li>
