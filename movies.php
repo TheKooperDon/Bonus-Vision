@@ -40,9 +40,10 @@
           </p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p class="card-text">Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</p>
-          
+              
+
             <ul class="list-group list-group-flush">
+              <li class="list-group-item">hrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.</li>
               <li class="list-group-item">Animation / Family</li>
               <li class="list-group-item">2004</li>
               <li class="list-group-item">Dreamworks Pictures</li>
@@ -291,11 +292,11 @@
             <div class="card card-body">
               <p class="card-text">Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.</p>
           
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Mystery / Thriller</li>
-              <li class="list-group-item">2001</li>
-              <li class="list-group-item">Summit Entertainment</li>
-            </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Mystery / Thriller</li>
+                <li class="list-group-item">2001</li>
+                <li class="list-group-item">Summit Entertainment</li>
+              </ul>
             </div>
           </div>
           <!-- *******************************
@@ -333,8 +334,6 @@
       *********************************-->
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <?php include ('footer.php'); ?>
     </html>
 
