@@ -208,7 +208,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
-	echo '<div class="container" style="max-width: 500px;">';
+	echo '<div class="container" style="max-width: 1000px;">';
 	echo '<div class: "m-5 p-3">
 	<h1 class: "px-3">Login</h1>
 	<form class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
