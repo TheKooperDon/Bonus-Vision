@@ -224,7 +224,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<div class="row">
 			<div class= "mx-auto col-10 col-md-8 col-lg-6">
 				<h1 class: "px-3">Register</h1>
-					<form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
+					<form class= "card p-3 bg-light" action="login.php?register" method="post">';
 	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
 	echo '<p>First Name: <input class="form-control" type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
 	echo '<p>Last Name: <input class="form-control" type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
@@ -239,9 +239,11 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	
 	
 } else {
-	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
-	<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
-	</br>
+	echo '<div class="p-3">
+			<p>You are logged in as: ', $_SESSION['username'], '</p>
+			<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
+		</br>
+		</div>
 	<div class="row">
 		<div class= "mx-auto col-10 col-md-8 col-lg-6">
 			<h1 class: "px-3">Change Your Password</h1>
