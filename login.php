@@ -208,7 +208,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
-	echo '<div class="center">';
+	
 	
 	echo '<div class: "m-5 p-3">
 	<h1 class: "px-3">Login</h1>
@@ -229,7 +229,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
 	echo '</div>';
-	echo '</div>';
+	
 	
 	
 } else {
