@@ -29,7 +29,7 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card bg-dark">
       <div class="card-body">
-        <h5 class="card-title text-center text-white">Deleted Scenes</h5>
+        <h3 class="card-title text-center text-white">Deleted Scenes</h5>
         <p class="card-text text-white">Star Wars: The Last Jedi</p>
         <div class="ratio ratio-16x9">
           <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -45,7 +45,7 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card bg-dark">
       <div class="card-body">
-        <h5 class="card-title text-center text-white">Bloopers</h5>
+        <h3 class="card-title text-center text-white">Bloopers</h5>
         <p class="card-text text-white">Rush Hour Triology</p>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/N0nwlxGO024" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -62,7 +62,7 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card bg-dark">
       <div class="card-body">
-        <h5 class="card-title text-center text-white">How it Was Made</h5>
+        <h3 class="card-title text-center text-white">How it Was Made</h5>
         <p class="card-text text-white">Making of Avatar</p>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/x_qm280q2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -226,6 +226,10 @@
     color: white;
     text-align: center;
   }
+
+  footer{
+    padding-top: 20px;
+  }
 /*
   .card-text {
     display: -webkit-box;
