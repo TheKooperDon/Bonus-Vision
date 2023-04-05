@@ -27,7 +27,7 @@ include('header.php'); ?>
 <div class="container mt-5">
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
+    <div class="card bg-dark">
       <div class="card-body">
         <h5 class="card-title text-center">Deleted Scenes</h5>
         <p class="card-text">Star Wars: The Last Jedi</p>
@@ -43,7 +43,7 @@ include('header.php'); ?>
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
+    <div class="card bg-dark">
       <div class="card-body">
         <h5 class="card-title text-center">Bloopers</h5>
         <p class="card-text">Rush Hour Triology</p>
@@ -60,7 +60,7 @@ include('header.php'); ?>
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
+    <div class="card bg-dark">
       <div class="card-body">
         <h5 class="card-title text-center">How it Was Made</h5>
         <p class="card-text">Making of Avatar</p>
@@ -78,7 +78,7 @@ include('header.php'); ?>
 </div>
 </div>
 
-
+<!-- GOODBYE SHIT CARDS 
 
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-4">
@@ -118,7 +118,7 @@ include('header.php'); ?>
       </div>
     </div>
 
-
+            -->
    
     <div class="container text-left mt-5">
               
