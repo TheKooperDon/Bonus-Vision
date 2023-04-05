@@ -1,4 +1,4 @@
-<footer id="footer" class="bg-dark text-white py-1 footer-bg mt-auto container-fluid">
+<footer id="footer" style="padding:20px;"class="bg-dark text-white py-1 footer-bg mt-auto container-fluid">
   <div class="container text-center">
     <div class="row">
       <div class="col">
