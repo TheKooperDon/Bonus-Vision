@@ -29,10 +29,14 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 1</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Deleted Scenes</h5>
+        <p class="card-text">Star Wars: The Last Jedi</p>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p class="card-text">The Incredibles</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube.com/embed/UDwV34L2JoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -40,21 +44,29 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 2</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Bloopers</h5>
+        <p class="card-text">Rush Hour Triology</p>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/N0nwlxGO024" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <p class="card-text">Pixar Outakes</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="300" src="https://www.youtube.com/embed/OjvlEfon2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
       </div>
     </div>
   </div>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 3</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">How it Was Made</h5>
+        <p class="card-text">Making of Avatar</p>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/x_qm280q2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="card-text">Avengers End Game</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube.com/embed/BdHCp62jC84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
