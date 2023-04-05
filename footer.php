@@ -17,7 +17,7 @@
       </div>
       </div>
       <div class="col">
-        <div class="logofooter copyright">
+        <div id="copyright" class="logofooter">
         <p><a href="#">Copyright and Licensing</a></p>
       </div>
       </div>
