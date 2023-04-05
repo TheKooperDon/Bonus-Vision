@@ -208,11 +208,10 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
-	echo '<div>';
-	echo '<div class="row align-items-center" style="height: 100vh;">';
+	echo '<div class="row">';
 	echo '<div class="mx-auto col-10 col-md-8 col-lg-6">';
-	//echo '<div class: "m-5 p-3">
-	echo '<h1 class: "px-3">Login</h1>
+	echo '<div class: "m-5 p-3">
+	<h1 class: "px-3">Login</h1>
 	<form class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
@@ -229,7 +228,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
-	//echo '</div>';
+	echo '</div>';
 	echo '</div>';
 	echo '</div>';
 } else {
