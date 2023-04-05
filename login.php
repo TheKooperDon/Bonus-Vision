@@ -213,7 +213,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<div class="row">
 	<div class= "mx-auto col-10 col-md-8 col-lg-6">
 	<h1 class= "px-3">Login</h1>
-	<form class= "card p-3 bg-light w-50" action="login.php?login" method="POST">
+	<form class= "card p-3 bg-light" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" class="btn btn-dark" name="submit" value="Login" /></p>
@@ -221,7 +221,10 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</div>
 	</div>';
 	echo '</br>';
-	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
+	echo '<h1 class: "px-3">Register</h1>
+			<div class="row">
+				<div class= "mx-auto col-10 col-md-8 col-lg-6">
+					<form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
 	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
 	echo '<p>First Name: <input class="form-control" type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
 	echo '<p>Last Name: <input class="form-control" type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
@@ -230,6 +233,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
+	echo '</div>'
 	echo '</div>';
 	
 	
