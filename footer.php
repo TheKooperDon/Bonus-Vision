@@ -1,6 +1,7 @@
 
 <footer id="footer" style="padding:20px;"class="bg-dark text-white py-1 footer-bg mt-auto container-fluid">
   <div class="container text-center">
+    <br>
     <div class="row">
       <div class="col">
         <img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
