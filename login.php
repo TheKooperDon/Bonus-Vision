@@ -258,7 +258,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	</div>	
 	</br>
 	<div class="row">
-		<div class= "mx-auto col-10 col-md-8 col-lg-6 col-xl-4">
+		<div class= "mx-auto col-10 col-md-8 col-lg-6 col-xl-7">
 			<h1 class: "px-3">Delete Your Account</h1>
 				<form class= "card p-3 bg-light" action="login.php?delete" method="post">
 					<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>

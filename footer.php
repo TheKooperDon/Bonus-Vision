@@ -13,7 +13,7 @@
         <a href="https://github.com/fvrlo/SeniorCapstoneBonusVision"><i class="bi bi-github mx-2 insta-icon"></i></a>
         <a href="#"><i class="bi bi-youtube mx-2 youtube-icon"></i></a>
         <a href="#"><i class="bi bi-twitter mx-2 twitter-icon"></i></a>
-        <a href="#"><i class="bi bi-insta mx-2 insta-icon"></i></a>
+        <a href="#"><i class="bi bi-instagram mx-2 insta-icon"></i></a>
       </div>
       </div>
       <div class="col">
