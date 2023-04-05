@@ -133,7 +133,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Star Wars: A New Hope</h5>
               <p class="card-text text-white">"Star Wars: A New Hope" follows the journey of Luke Skywalker, a young farmhand who dreams of adventure beyond his mundane life on the desert planet of Tatooine. When he comes across a message from a princess, he sets out to help her rescue her people from the evil Empire, with the help of a rogue smuggler and a wise old Jedi knight. Along the way, they battle stormtroopers, evade Darth Vader, and ultimately destroy the Empire's most powerful weapon, the Death Star.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Blade Runner</h5>
               <p class="card-text text-white">In a dystopian future, Blade Runner Rick Deckard is tasked with hunting down and "retiring" replicants, bio-engineered beings created for slave labor but now considered a threat to society. As he tracks down a group of escaped replicants led by the charismatic Roy Batty, Deckard begins to question his own beliefs and what it means to be human. The film explores themes of identity, memory, and the ethical implications of artificial intelligence.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Pirates of the Caribbean Deads Mans Chest</h5>
               <p class="card-text text-white">"Dead Man's Chest" is the second installment in the Pirates of the Caribbean film series, following the adventures of Captain Jack Sparrow as he searches for the legendary chest of Davy Jones, which contains his heart and grants control over the seas. Along the way, Jack is pursued by the villainous Lord Cutler Beckett, and must also contend with his former lover, the pirate-turned-privateer Elizabeth Swann, and the blacksmith-turned-pirate Will Turner, who are also seeking the chest for their own purposes. The film features action-packed set pieces, supernatural elements, and comedic moments.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Dirty Dancing</h5>
               <p class="card-text text-white">"Dirty Dancing" is a coming-of-age story set in the summer of 1963, about Frances "Baby" Houseman, a young woman on vacation with her family at a resort in the Catskill Mountains. She falls in love with the resort's dance instructor, Johnny Castle, and the two develop a passionate relationship through their shared love of dance. The film explores themes of class differences, social norms, and self-discovery, and features iconic dance sequences set to popular music of the era.</p>
-              <a href="#" class="btn btn-warning">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Finding Nemo</h5>
               <p class="card-text text-white">"Finding Nemo" is an animated adventure film about a clownfish named Marlin, who embarks on a journey across the ocean to rescue his son Nemo, who has been captured by a scuba diver and taken to an aquarium in Sydney, Australia. Along the way, Marlin meets a forgetful blue tang named Dory, who becomes his unlikely ally and helps him navigate the dangers of the open sea. The film explores themes of family, friendship, and overcoming fear, and features colorful underwater settings and memorable characters.</p>
-              <a href="#" class="btn btn-info">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ include('header.php'); ?>
             <div class="card-body">
               <h5 class="card-title text-white">Forest Gump</h5>
               <p class="card-text text-white">"Forrest Gump" is a heartwarming story about a simple man with a low IQ, Forrest Gump, who unwittingly becomes involved in some of the most significant events in American history, including the Vietnam War and the Civil Rights Movement. Despite facing numerous challenges and setbacks, Forrest's optimism and unwavering loyalty to his loved ones endear him to those around him, including his childhood friend and lifelong love interest, Jenny. The film won multiple Academy Awards and is known for its memorable quotes and iconic soundtrack.</p>
-              <a href="#" class="btn btn-dark">Watch Now</a>
+              <a href="#" class="btn btn-outline-warning">Watch Now</a>
             </div>
           </div>
         </div>
