@@ -227,10 +227,7 @@
     text-align: center;
   }
 
-  #footer{
-    height: 50px;
-    padding: 20px;
-  }
+  
 
   .center {
     position: absolute;
@@ -247,7 +244,10 @@
   }
 
   */
-
+  #footer{
+    height: 50px;
+    padding-top: 20px;
+  }
 .logofooter{
   
   margin:20px;
