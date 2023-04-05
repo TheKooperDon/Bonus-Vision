@@ -218,6 +218,8 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 		<p><input type="submit" class="btn btn-dark" name="submit" value="Login" /></p>
 	</form>
 	</div>';
+	echo '</div>';
+	echo '</div>';
 	echo '</br>';
 	echo '<h1 class: "px-3">Register</h1><form class= "card p-3 bg-light w-25" action="login.php?register" method="post">';
 	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
@@ -229,8 +231,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
 	echo '</div>';
-	echo '</div>';
-	echo '</div>';
+	
 } else {
 	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
 	<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
