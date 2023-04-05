@@ -211,7 +211,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	
 	
 	echo '<div class="row">
-	<div class= "mx-auto col-10 col-md-8 col-lg-6">
+	<div class= "mx-auto col-10 col-md-8 col-lg-4">
 	<h1 class= "px-3">Login</h1>
 	<form class= "card p-3 bg-light" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
@@ -264,7 +264,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 					<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>
 					<p>Current Password: <input class="form-control" type="password" name="password" size="10" maxlength="20" value="', isset($_POST['password']) ? $_POST['password'] : '', '"  /></p>
 					<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>
-					<p><input type="submit" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Are you sure? This selection is final."> name="submit" value="Delete" /></p>
+					<p><input type="submit" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Are you sure? This selection is final." name="submit" value="Delete" /></p>
 				</form>
 		</div>
 	</div>
