@@ -24,12 +24,12 @@ include('header.php'); ?>
     </div>
     
 <br>
-
+<div class="container text-left mt-5">
 <div class="row">
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 1</h5>
+        <h5 class="card-title">Deleted Scenes</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -37,7 +37,13 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 2</h5>
+        <h5 class="card-title">Bloopers</h5>
+        <div class="card card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Star Wars: The Last Jedi</li>
+              <li class="list-group-item"><iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+            </ul>
+            </div>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -45,13 +51,14 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Card 3</h5>
+        <h5 class="card-title">How it was Made</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
       </div>
     </div>
   </div>
 </div>
-
+</div>
 
 
     <div class="container">
