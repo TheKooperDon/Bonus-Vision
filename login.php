@@ -213,7 +213,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<div class="row">
 	<div class: "mx-auto col-10 col-md-8 col-lg-6">
 	<h1 class: "px-3">Login</h1>
-	<form class= "card p-3 bg-light" action="login.php?login" method="POST">
+	<form class= "card p-3 bg-light w-50" action="login.php?login" method="POST">
 		<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" /></p>
 		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" class="btn btn-dark" name="submit" value="Login" /></p>
