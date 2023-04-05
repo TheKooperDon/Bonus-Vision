@@ -231,6 +231,13 @@
     height: 50px;
     padding: 20px;
   }
+
+  .center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;  
+  }
 /*
   .card-text {
     display: -webkit-box;
