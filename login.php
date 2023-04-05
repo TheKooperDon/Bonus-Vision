@@ -208,6 +208,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && ($_SERVER['QUERY_STRING'] == 'chan
 
 <?php
 if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER_AGENT']))) {
+	echo '<div class="container" style="max-width: 500px;">';
 	echo '<div class: "m-5 p-3">
 	<h1 class: "px-3">Login</h1>
 	<form class= "card p-3 bg-light w-25" action="login.php?login" method="POST">
@@ -226,6 +227,7 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
+	echo '</div>';
 } else {
 	echo '<p>You are logged in as ', $_SESSION['username'], '</p>
 	<p><a href="login.php?logout"><button type="button" class="btn btn-dark">Logout</button></a></p>
