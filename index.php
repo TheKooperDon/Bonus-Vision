@@ -66,9 +66,9 @@ include('header.php'); ?>
         <p class="card-text">Making of Avatar</p>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/x_qm280q2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <p class="card-text">Avengers End Game</p>
           </div>
           <br>
+          <p class="card-text">Avengers End Game</p>
           <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/BdHCp62jC84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
