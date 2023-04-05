@@ -29,11 +29,12 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Deleted Scenes</h5>
+        <h5 class="card-title text-center">Deleted Scenes</h5>
         <p class="card-text">Star Wars: The Last Jedi</p>
         <div class="ratio ratio-16x9">
           <iframe width="300" src="https://www.youtube.com/embed/UzeIb-TZo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <br>
         <p class="card-text">The Incredibles</p>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/UDwV34L2JoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -44,11 +45,12 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Bloopers</h5>
+        <h5 class="card-title text-center">Bloopers</h5>
         <p class="card-text">Rush Hour Triology</p>
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/N0nwlxGO024" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <br>
         <p class="card-text">Pixar Outakes</p>
         <div class="ratio ratio-16x9">
           <iframe width="300" src="https://www.youtube.com/embed/OjvlEfon2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -60,12 +62,13 @@ include('header.php'); ?>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">How it Was Made</h5>
+        <h5 class="card-title text-center">How it Was Made</h5>
         <p class="card-text">Making of Avatar</p>
         <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/x_qm280q2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <p class="card-text">Avengers End Game</p>
           </div>
+          <br>
           <div class="ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/BdHCp62jC84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
