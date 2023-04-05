@@ -10,7 +10,7 @@ $page_title = 'About Us';?>
   <body>
 
     <main>
-    
+    <div class="container mt-5">
     <h1 class="px-3">Meet the Team</h1>
 <!-- BEGINNING OF PROFILE CARDS ***********************************-->
     <div class="px-3 grid text-center">
@@ -102,7 +102,7 @@ $page_title = 'About Us';?>
 
 <!-- ************************************
       END OF ACCORDIANS-->
-
+    </div>
     </main>
     <footer>
 
