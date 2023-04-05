@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col">
         <div class="logofooter">
-        <img src="logoimages/whitelogoonly.svg"  alt="Bootstrap" width="100" height="24">
+        <img src="logoimages/whitelogoonly.svg"  alt="Bootstrap"  height="50">
         </div>
       </div>
       <div class="col-5">
