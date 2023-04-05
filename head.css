@@ -111,6 +111,9 @@
       font-weight: 500;
       font-style: normal;
     }
+    .hero-text h1{
+      font-size: 70px;
+    }
    
 .bg-blue {
        background-color: blue;
