@@ -12,7 +12,6 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	$is_logged_in = True;
 }
 
-$page_title = 'BonusVision';
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
