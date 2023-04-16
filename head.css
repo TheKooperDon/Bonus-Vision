@@ -18,7 +18,7 @@
 
     .facebook-icon {
         color: #3B5998;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     .facebook-icon:hover {
@@ -27,7 +27,7 @@
 
     .twitter-icon {
         color: #00acee;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     .twitter-icon:hover {
@@ -36,7 +36,7 @@
 
     .insta-icon {
         color: #8a3ab9;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     .insta-icon:hover {
@@ -45,7 +45,7 @@
     
     .youtube-icon {
         color: #c4302b;
-        font-size: 1.7em;
+        font-size: 3em;
     }
 
     .youtube-icon:hover {
@@ -212,7 +212,7 @@
   */
 
   .hero-image {
-    height: 70vh;
+    height: 75vh;
     background-image: url(logoimages/futurepattern.jpeg);
     background-size: cover;
     background-position: center;
@@ -220,6 +220,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:-10px;
+    padding-top:-10px;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
   }
 
   .hero-text {
@@ -227,10 +231,7 @@
     text-align: center;
   }
 
-  #footer{
-    height: 50px;
-    padding: 20px;
-  }
+  
 
   .center {
     position: absolute;
@@ -247,3 +248,21 @@
   }
 
   */
+  /*
+  #footer{
+    height: 50px;
+    
+  }
+
+  */
+.logofooter{
+  
+  margin:50px;
+
+}
+
+#copyright.logofooter{
+  padding-top: 10px;
+  text-align: center;
+ 
+}

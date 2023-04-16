@@ -4,13 +4,22 @@
     
     <div class="row">
       <div class="col">
-        <img src="logoimages/whitelogoonly.svg" alt="Bootstrap" width="100" height="24">
+        <div class="logofooter">
+        <img src="logoimages/whitelogoonly.svg"  alt="Bootstrap"  height="50">
+        </div>
       </div>
       <div class="col-5">
+      <div class="logofooter">
         <a href="https://github.com/fvrlo/SeniorCapstoneBonusVision"><i class="bi bi-github mx-2 insta-icon"></i></a>
+        <a href="#"><i class="bi bi-youtube mx-2 youtube-icon"></i></a>
+        <a href="#"><i class="bi bi-twitter mx-2 twitter-icon"></i></a>
+        <a href="#"><i class="bi bi-instagram mx-2 insta-icon"></i></a>
+      </div>
       </div>
       <div class="col">
+        <div id="copyright" class="logofooter">
         <p><a href="#">Copyright and Licensing</a></p>
+      </div>
       </div>
     </div>
   </div>
