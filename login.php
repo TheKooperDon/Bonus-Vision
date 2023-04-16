@@ -214,8 +214,8 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 	<div class= "mx-auto col-10 col-md-8 col-lg-6 col-xl-4">
 	<h1 class= "px-3">Login</h1>
 	<form class= "card p-3 bg-light" action="login.php?login" method="POST">
-		<p class="form-floating">Email Address: <input class="form-control" id="floatingInput" type="text" placeholder="name@example.com" name="email" maxlength="60" /> <label for="floatingInput">Email Address</label> </p>
-		<p>Password: <input class="form-control" type="password" name="password" size="20" maxlength="20" /></p>
+		<p>Email Address: <input class="form-control" type="text" placeholder="name@example.com" name="email" size="20" maxlength="60" /></p>
+		<p>Password: <input class="form-control" type="password" placeholder="Must have at least 6 characters" name="password" size="20" maxlength="20" /></p>
 		<p><input type="submit" class="btn btn-dark" name="submit" value="Login" /></p>
 	</form>
 	</div>
@@ -225,12 +225,12 @@ if (!isset($_SESSION['agent']) OR ($_SESSION['agent'] != md5($_SERVER['HTTP_USER
 			<div class= "mx-auto col-10 col-md-8 col-lg-6 col-xl-4">
 				<h1 class: "px-3">Register</h1>
 					<form class= "card p-3 bg-light" action="login.php?register" method="post">';
-	echo '<p>Username: <input class="form-control" type="text" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
-	echo '<p>First Name: <input class="form-control" type="text" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
-	echo '<p>Last Name: <input class="form-control" type="text" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
-	echo '<p>Email Address: <input class="form-control" type="text" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
-	echo '<p>Password: <input class="form-control" type="password" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
-	echo '<p>Confirm Password: <input class="form-control" type="password" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
+	echo '<p>Username: <input class="form-control" type="text" placeholder="Username" name="username" size="15" maxlength="20" value="', isset($_POST['username']) ? $_POST['username'] : '', '" /></p>';
+	echo '<p>First Name: <input class="form-control" type="text" placeholder="First Name" name="firstname" size="15" maxlength="20" value="', isset($_POST['firstname']) ? $_POST['firstname'] : '', '" /></p>';
+	echo '<p>Last Name: <input class="form-control" type="text" placeholder="Last Name" name="lastname" size="15" maxlength="40" value="', isset($_POST['lastname']) ? $_POST['lastname'] : '', '" /></p>';
+	echo '<p>Email Address: <input class="form-control" type="text" placeholder="name@example.com" name="email" size="20" maxlength="60" value="', isset($_POST['email']) ? $_POST['email'] : '', '"  /> </p>';
+	echo '<p>Password: <input class="form-control" type="password" placeholder="Must have at least 6 characters" name="password1" size="10" maxlength="20" value="', isset($_POST['password1']) ? $_POST['password1'] : '', '"  /></p>';
+	echo '<p>Confirm Password: <input class="form-control" type="password" placeholder="Must be same as above" name="password2" size="10" maxlength="20" value="', isset($_POST['password2']) ? $_POST['password2'] : '', '"  /></p>';
 	echo '<p><input type="submit" class="btn btn-dark" name="submit" value="Register" /></p>';
 	echo '</form>';
 	echo '</div>';
